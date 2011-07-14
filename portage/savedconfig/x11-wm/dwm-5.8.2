@@ -7,7 +7,7 @@ static const char normbgcolor[]     = "#222222";
 static const char normfgcolor[]     = "#888888";
 static const char selbordercolor[]  = "#222222";
 static const char selbgcolor[]      = "#222222";
-static const char selfgcolor[]      = "#cccccc";
+static const char selfgcolor[]      = "#bebebe";
 static const unsigned int borderpx  = 0;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const Bool showbar           = True;     /* False means no bar */
@@ -59,7 +59,7 @@ static const Layout layouts[] = {
 
 /* commands */
 static const char *dmenucmd[] = { "dmenu_run", "-fn", font, "-nb", normbgcolor, "-nf", normfgcolor, "-sb", selbgcolor, "-sf", selfgcolor, NULL };
-static const char *termcmd[]  = { "/usr/bin/urxvt", "+sb", "-fn", "xft:Terminus,xft:Fixed", "--background", normbgcolor, "--foreground", normfgcolor, "-cr", "white", "-b", "0", "-bc", "-uc", NULL };
+static const char *termcmd[]  = { "/usr/bin/urxvt", "+sb", "-fn", "xft:Terminus,xft:Fixed", "--background", normbgcolor, "--foreground", selfgcolor, "-cr", "white", "-b", "0", "-bc", "-uc", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
