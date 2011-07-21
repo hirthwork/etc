@@ -60,11 +60,13 @@ static const Layout layouts[] = {
 /* commands */
 static const char *dmenucmd[] = { "dmenu_run", "-fn", font, "-nb", normbgcolor, "-nf", normfgcolor, "-sb", selbgcolor, "-sf", selfgcolor, NULL };
 static const char *termcmd[]  = { "/usr/bin/urxvt", "+sb", "-fn", "xft:Terminus,xft:Fixed", "--background", normbgcolor, "--foreground", selfgcolor, "-cr", "white", "-b", "0", "-bc", "-uc", NULL };
+static const char *scrotcmd[]  = { "/usr/bin/scrot", "/tmp/%Y%m%d-%H%M%S.png", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_r,      spawn,          {.v = dmenucmd } },
 	{ MODKEY,                       XK_Return, spawn,          {.v = termcmd } },
+	{ MODKEY,                       XK_s,      spawn,          {.v = scrotcmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
