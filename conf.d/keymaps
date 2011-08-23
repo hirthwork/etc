@@ -6,7 +6,7 @@ keymap="ruwin_cplk-UTF-8"
 # say "yes" here.  Note that non-x86 users should leave it as "no".
 # Loading this keymap will enable VT switching (like ALT+Left/Right)
 # using the special windows keys on the linux console.
-windowkeys="YES"
+windowkeys="NO"
 
 # The maps to load for extended keyboards.  Most users will leave this as is.
 extended_keymaps=""
