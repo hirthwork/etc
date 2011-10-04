@@ -1,0 +1,14 @@
+app-arch/p7zip rar
+app-editors/vim vim-pager
+app-emulation/wine threads gecko opengl custom-cflags
+app-office/abiword grammar thesaurus spell openxml
+app-portage/layman git subversion
+app-text/enchant aspell
+net-im/mcabber aspell modules
+net-im/mcabber-modules extsayng
+mail-client/mutt berkdb imap pop smime smtp
+media-fonts/terminus-font pcf ru-dv ru-g ru-i psf
+sys-devel/gcc doc graphite mudflap openmp
+www-client/firefox methodjit custom-optimization webm pgo
+x11-base/xorg-server udev xorg
+
