@@ -3,7 +3,7 @@
 /* appearance */
 #define FONT "-*-terminus-medium-r-normal-*-14-*-*-*-*-*-*-*"
 #define NORMBGCOLOR "#222222"
-#define NORMFGCOLOR "#888888"
+#define NORMFGCOLOR "#8a8a8a"
 #define SELFGCOLOR "#bebebe"
 static const char font[]            = FONT;
 static const char normbordercolor[] = "#222222";
@@ -63,7 +63,7 @@ static const Layout layouts[] = {
 
 /* commands */
 static const char *gmruncmd[] = { "gmrun", "-g", "+0+0", NULL };
-static const char *termcmd[]  = { "/usr/bin/urxvt", "+sb", "-fn", "xft:Terminus,xft:Fixed", "--background", normbgcolor, "--foreground", selfgcolor, "-cr", "white", "-b", "0", "-bc", "-uc", NULL };
+static const char *termcmd[]  = { "/usr/bin/urxvt", "+sb", "-fn", "xft:Terminus,xft:Fixed", "--background", normbgcolor, "--foreground", selfgcolor, "-cr", "white", "-b", "0", "-bc", "-uc", "--color0", normbgcolor, "--color1", "#702222", "--color2", "#227022", "--color3", "#707022", "--color4", "#222270", "--color5", "#702270", "--color6", "#227070", "--color7", normfgcolor, "--color8", "#565656", "--color9", "#be2222", "--color10", "#22be22", "--color11", "#bebe22", "--color12", "#2222be", "--color13", "#be22be", "--color14", "#22bebe", "--color15", selfgcolor, NULL };
 static const char *scrotcmd[]  = { "/usr/bin/scrot", "/tmp/%Y%m%d-%H%M%S.png", NULL };
 
 static void nametag(const Arg *arg);
