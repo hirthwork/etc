@@ -1,13 +1,17 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static const char font[]            = "-*-terminus-medium-r-normal-*-14-*-*-*-*-*-*-*";
+#define FONT "-*-terminus-medium-r-normal-*-14-*-*-*-*-*-*-*"
+#define NORMBGCOLOR "#222222"
+#define NORMFGCOLOR "#888888"
+#define SELFGCOLOR "#bebebe"
+static const char font[]            = FONT;
 static const char normbordercolor[] = "#222222";
-static const char normbgcolor[]     = "#222222";
-static const char normfgcolor[]     = "#888888";
+static const char normbgcolor[]     = NORMBGCOLOR;
+static const char normfgcolor[]     = NORMFGCOLOR;
 static const char selbordercolor[]  = "#222222";
-static const char selbgcolor[]      = "#222222";
-static const char selfgcolor[]      = "#bebebe";
+static const char selbgcolor[]      = NORMBGCOLOR;
+static const char selfgcolor[]      = SELFGCOLOR;
 static const unsigned int borderpx  = 0;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const Bool showbar           = True;     /* False means no bar */
@@ -56,9 +60,6 @@ static const Layout layouts[] = {
 	{ MODKEY|ControlMask,           KEY,      toggleview,     {.ui = 1 << TAG} }, \
 	{ MODKEY|ShiftMask,             KEY,      tag,            {.ui = 1 << TAG} }, \
 	{ MODKEY|ControlMask|ShiftMask, KEY,      toggletag,      {.ui = 1 << TAG} },
-
-/* helper for spawning shell commands in the pre dwm-5.0 fashion */
-#define SHCMD(cmd) { .v = (const char*[]){ "/bin/sh", "-c", cmd, NULL } }
 
 /* commands */
 static const char *gmruncmd[] = { "gmrun", "-g", "+0+0", NULL };
@@ -125,7 +126,7 @@ void nametag(const Arg *arg) {
 	FILE *fp;
 	int i;
 
-	if(!(fp = (FILE*)popen("echo -n | dmenu", "r")))
+	if(!(fp = (FILE*)popen("echo -n | dmenu -fn '" FONT "' -nb '" NORMBGCOLOR "' -nf '" NORMFGCOLOR "' -sb '" NORMBGCOLOR "' -sf '" SELFGCOLOR "'", "r")))
 		fprintf(stderr, "dwm: Could not popen 'echo -n | dmenu'\n");
 	cp = fgets(name, MAX_TAGLEN, fp);
 	pclose(fp);
