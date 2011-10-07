@@ -1,7 +1,6 @@
 app-arch/p7zip rar
 app-editors/vim vim-pager
 app-emulation/wine threads gecko opengl custom-cflags
-app-misc/screen vsplit
 app-office/abiword grammar thesaurus spell openxml
 app-portage/layman git subversion
 app-text/enchant aspell
