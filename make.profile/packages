@@ -40,6 +40,7 @@
 *x11-base/xorg-server
 *x11-misc/dmenu
 *x11-misc/gmrun
+*x11-misc/slock
 *x11-misc/trayer
 *x11-misc/xsel
 *x11-terms/rxvt-unicode
