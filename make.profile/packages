@@ -43,4 +43,4 @@
 *x11-misc/trayer
 *x11-misc/xsel
 *x11-terms/rxvt-unicode
-*x11-wm/dwm
+*=x11-wm/dwm-5.6.1

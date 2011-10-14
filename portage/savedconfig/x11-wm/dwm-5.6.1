@@ -67,6 +67,8 @@ static const char *termcmd[]  = { "/usr/bin/urxvt", "+sb", "-fn", "xft:Terminus,
 static const char *scrotcmd[]  = { "/usr/bin/scrot", "/tmp/%Y%m%d-%H%M%S.png", NULL };
 
 static void nametag(const Arg *arg);
+static void nexttag(const Arg *arg);
+static void prevtag(const Arg *arg);
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
@@ -92,7 +94,9 @@ static Key keys[] = {
 	{ MODKEY,                       XK_period, focusmon,       {.i = +1 } },
 	{ MODKEY|ShiftMask,             XK_comma,  tagmon,         {.i = -1 } },
 	{ MODKEY|ShiftMask,             XK_period, tagmon,         {.i = +1 } },
-	{ MODKEY,                       XK_n,      nametag,        {0} },
+	{ MODKEY|ShiftMask,             XK_n,      nametag,        {0} },
+	{ MODKEY,                       XK_n,      nexttag,        {0} },
+	{ MODKEY,                       XK_p,      prevtag,        {0} },
 	TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
 	TAGKEYS(                        XK_3,                      2)
@@ -140,6 +144,20 @@ void nametag(const Arg *arg) {
 			tags[i][MAX_TAGLEN - 1] = 0;
 		}
 	drawbars();
+}
+
+void nexttag(const Arg* arg) {
+	if((1 << (LENGTH(tags) - 1)) & selmon->tagset[selmon->seltags])
+		return;
+	selmon->tagset[selmon->seltags] <<= 1;
+	arrange();
+}
+
+void prevtag(const Arg* arg) {
+	if(1 & selmon->tagset[selmon->seltags])
+		return;
+	selmon->tagset[selmon->seltags] >>= 1;
+	arrange();
 }
 
 #undef ISVISIBLE
