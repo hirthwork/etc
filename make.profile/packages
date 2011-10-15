@@ -29,6 +29,7 @@
 *net-im/mcabber-modules
 *net-im/skype
 *sci-mathematics/calc
+*sys-apps/daemonize
 *sys-apps/mlocate
 *sys-process/htop
 *sys-process/iotop
