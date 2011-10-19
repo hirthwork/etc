@@ -2,14 +2,14 @@
 
 /* appearance */
 #define FONT "-*-terminus-medium-r-normal-*-14-*-*-*-*-*-*-*"
-#define NORMBGCOLOR "#222222"
-#define NORMFGCOLOR "#8a8a8a"
-#define SELFGCOLOR "#bebebe"
+#define NORMBGCOLOR "#000000"
+#define NORMFGCOLOR "#aaaaaa"
+#define SELFGCOLOR "#ffffff"
 static const char font[]            = FONT;
-static const char normbordercolor[] = "#222222";
+static const char normbordercolor[] = NORMBGCOLOR;
 static const char normbgcolor[]     = NORMBGCOLOR;
 static const char normfgcolor[]     = NORMFGCOLOR;
-static const char selbordercolor[]  = "#222222";
+static const char selbordercolor[]  = NORMBGCOLOR;
 static const char selbgcolor[]      = NORMBGCOLOR;
 static const char selfgcolor[]      = SELFGCOLOR;
 static const unsigned int borderpx  = 0;        /* border pixel of windows */
@@ -63,7 +63,7 @@ static const Layout layouts[] = {
 
 /* commands */
 static const char *gmruncmd[] = { "gmrun", "-g", "+0+0", NULL };
-static const char *termcmd[]  = { "/usr/bin/urxvt", "+sb", "-fn", "xft:Terminus,xft:Fixed", "--background", normbgcolor, "--foreground", selfgcolor, "-cr", "white", "-b", "0", "-bc", "-uc", "--color0", normbgcolor, "--color1", "#702222", "--color2", "#227022", "--color3", "#707022", "--color4", "#222270", "--color5", "#702270", "--color6", "#227070", "--color7", normfgcolor, "--color8", "#565656", "--color9", "#be2222", "--color10", "#22be22", "--color11", "#bebe22", "--color12", "#2222be", "--color13", "#be22be", "--color14", "#22bebe", "--color15", selfgcolor, NULL };
+static const char *termcmd[]  = { "/usr/bin/urxvt", "+sb", "-fn", "xft:Terminus,xft:Fixed", "--background", normbgcolor, "--foreground", selfgcolor, "-cr", "white", "-b", "0", "-bc", "-uc", "--color0", normbgcolor, "--color1", "#aa0000", "--color2", "#00aa00", "--color3", "#aa5500", "--color4", "#0000aa", "--color5", "#aa00aa", "--color6", "#00aaaa", "--color7", normfgcolor, "--color8", "#555555", "--color9", "#ff5555", "--color10", "#55ff55", "--color11", "#ffff55", "--color12", "#5555ff", "--color13", "#ff55ff", "--color14", "#55ffff", "--color15", selfgcolor, NULL };
 static const char *scrotcmd[]  = { "/usr/bin/scrot", "/tmp/%Y%m%d-%H%M%S.png", NULL };
 
 static void nametag(const Arg *arg);
