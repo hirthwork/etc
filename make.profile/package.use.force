@@ -6,6 +6,7 @@ app-portage/layman git subversion
 app-text/enchant aspell
 net-im/mcabber aspell modules
 net-im/mcabber-modules extsayng
+net-libs/loudmouth fix-utf8
 mail-client/mutt berkdb imap pop smime smtp
 media-fonts/terminus-font pcf ru-dv ru-g ru-i psf
 sys-devel/gcc doc graphite mudflap openmp
