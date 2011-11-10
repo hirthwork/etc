@@ -9,6 +9,7 @@ net-im/mcabber-modules extsayng
 net-libs/loudmouth fix-utf8
 mail-client/mutt berkdb imap pop smime smtp
 media-fonts/terminus-font pcf ru-dv ru-g ru-i psf
+media-gfx/feh curl
 sys-devel/gcc doc graphite mudflap openmp
 www-client/firefox methodjit custom-optimization webm pgo
 x11-base/xorg-server udev xorg xvfb
