@@ -1,4 +1,4 @@
-USE="-* minimal X gnutls fontconfig ncurses ssl sasl vim-syntax mmx sse sse2 ssse3 cscope gpg symlink unicode png jpeg tiff djvu svg savedconfig truetype"
+USE="-* minimal X gnutls fontconfig ncurses ssl sasl vim-syntax mmx sse sse2 ssse3 cscope gpg symlink unicode png jpeg tiff djvu svg savedconfig truetype cxx"
 MAKEOPTS="-j2"
 LINGUAS="am en us ru hy"
 INPUT_DEVICES="evdev keyboard mouse"
