@@ -8,7 +8,7 @@ net-im/mcabber aspell modules
 net-im/mcabber-modules extsayng
 net-libs/loudmouth fix-utf8
 mail-client/mutt berkdb imap pop smime smtp
-media-fonts/terminus-font pcf ru-dv ru-g ru-i psf
+media-fonts/font-misc-misc nls
 media-gfx/feh curl
 sys-apps/busybox pam
 sys-devel/gcc doc graphite mudflap openmp
