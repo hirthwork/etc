@@ -12,7 +12,9 @@ mail-client/mutt berkdb imap pop smime smtp
 media-fonts/font-misc-misc nls
 media-gfx/feh curl
 sys-apps/busybox pam
-sys-devel/gcc doc graphite mudflap openmp
+sys-devel/clang multitarget
+sys-devel/gcc doc graphite mudflap openmp lto
+sys-devel/llvm multitarget
 www-client/firefox methodjit custom-optimization webm pgo
 x11-base/xorg-server udev xorg xvfb
 

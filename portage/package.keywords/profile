@@ -1,9 +1,11 @@
-dev-libs/nss
 mail-client/mutt
 net-im/mcabber
 net-im/mcabber-modules
 net-im/skype
 net-libs/loudmouth
+sys-devel/clang
+sys-devel/dragonegg
+sys-devel/llvm
 www-client/firefox
 =www-plugins/adobe-flash-11.0.1.152
 x11-wm/dwm
