@@ -1,8 +1,9 @@
 app-arch/p7zip rar
 app-editors/vim vim-pager
 app-emulation/wine threads gecko opengl custom-cflags
-app-office/abiword grammar thesaurus spell openxml
+app-office/abiword spell plugins grammar openxml thesaurus
 app-portage/layman git subversion
+app-text/aiksaurus gtk
 app-text/enchant aspell
 net-im/mcabber aspell modules
 net-im/mcabber-modules extsayng
