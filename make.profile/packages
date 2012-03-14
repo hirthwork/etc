@@ -14,7 +14,6 @@
 *app-shells/zsh
 *app-text/evince
 *app-text/xchm
-*app-vim/supertab
 *dev-util/cgdb
 *dev-util/cscope
 *dev-util/ctags
