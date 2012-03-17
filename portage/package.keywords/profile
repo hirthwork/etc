@@ -1,3 +1,5 @@
+dev-libs/nspr
+dev-libs/nss
 mail-client/mutt
 net-im/mcabber
 net-im/mcabber-modules
