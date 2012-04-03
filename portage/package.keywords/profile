@@ -1,5 +1,6 @@
-app-vim/javacomplete
 app-vim/clang-complete
+app-vim/cscope
+app-vim/javacomplete
 dev-libs/nspr
 dev-libs/nss
 mail-client/mutt
