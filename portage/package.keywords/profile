@@ -1,3 +1,5 @@
+app-vim/javacomplete
+app-vim/clang-complete
 dev-libs/nspr
 dev-libs/nss
 mail-client/mutt
@@ -10,4 +12,5 @@ sys-devel/dragonegg
 sys-devel/llvm
 www-client/firefox
 =www-plugins/adobe-flash-11.0.1.152
+x11-terms/st
 x11-wm/dwm
