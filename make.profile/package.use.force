@@ -5,17 +5,26 @@ app-office/abiword spell plugins grammar openxml thesaurus
 app-portage/layman git subversion
 app-text/aiksaurus gtk
 app-text/enchant aspell
+kde-base/kcachegrind qt3support
+mail-client/mutt berkdb imap pop smime smtp
+media-fonts/font-misc-misc nls
+media-gfx/feh curl
+media-libs/phonon gstreamer
+media-plugins/gst-plugins-meta ogg vorbis
 net-im/mcabber aspell modules
 net-im/mcabber-modules extsayng
 net-irc/irssi perl
 net-libs/loudmouth fix-utf8
-mail-client/mutt berkdb imap pop smime smtp
-media-fonts/font-misc-misc nls
-media-gfx/feh curl
 sys-apps/busybox pam
 sys-devel/clang multitarget
 sys-devel/gcc doc graphite mudflap openmp lto
 sys-devel/llvm multitarget
 www-client/firefox methodjit custom-optimization webm pgo
 x11-base/xorg-server udev xorg xvfb
-
+x11-libs/qt-core exceptions qt3support
+x11-libs/qt-declarative accessibility qt3support
+x11-libs/qt-gui accessibility qt3support
+x11-libs/qt-opengl qt3support
+x11-libs/qt-qt3support accessibility
+x11-libs/qt-sql qt3support
+x11-libs/qt-svg accessibility

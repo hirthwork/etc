@@ -23,6 +23,8 @@
 *dev-util/cscope
 *dev-util/ctags
 *dev-util/lafilefixer
+*dev-util/valgrind
+*kde-base/kcachegrind
 *mail-client/mutt
 *media-fonts/font-misc-misc
 *media-gfx/feh
