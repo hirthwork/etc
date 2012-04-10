@@ -12,6 +12,5 @@ sys-devel/clang
 sys-devel/dragonegg
 sys-devel/llvm
 www-client/firefox
-=www-plugins/adobe-flash-11.0.1.152
 x11-terms/st
 x11-wm/dwm
