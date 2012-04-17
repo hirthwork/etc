@@ -5,6 +5,7 @@ dev-libs/nspr
 dev-libs/nss
 mail-client/mutt
 net-im/mcabber
+net-im/mcabber-commands
 net-im/mcabber-modules
 net-im/skype
 net-libs/loudmouth

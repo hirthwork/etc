@@ -35,6 +35,7 @@
 *net-analyzer/traceroute
 *net-analyzer/wireshark
 *net-im/mcabber
+*net-im/mcabber-commands
 *net-im/mcabber-modules
 *=net-im/skype-2.2.0.25
 *net-misc/dhcpcd
