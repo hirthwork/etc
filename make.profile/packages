@@ -22,6 +22,7 @@
 *dev-util/cgdb
 *dev-util/cscope
 *dev-util/ctags
+*dev-util/debugedit
 *dev-util/lafilefixer
 *dev-util/valgrind
 *kde-base/kcachegrind
