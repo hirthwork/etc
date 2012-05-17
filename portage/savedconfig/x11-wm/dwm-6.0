@@ -133,19 +133,12 @@ static Button buttons[] = {
 };
 
 void nametag(const Arg *arg) {
-        char command[sizeof(tags) + 256] = "echo '";
         char *cp, name[MAX_TAGLEN - 2];
         FILE *fp;
         int i;
-        for (i = 0; i < sizeof(tags) / sizeof(tags[0]); ++i) {
-                if (i)
-                        strcat(command, "\n");
-                strcat(command, tags[i] + 2);
-        }
-        strcat(command, "' | dmenu -fn '" FONT "' -nb '" NORMBGCOLOR "' -nf '" NORMFGCOLOR "' -sb '" NORMBGCOLOR "' -sf '" SELFGCOLOR "'");
 
-        if(!(fp = (FILE*)popen(command, "r")))
-                fprintf(stderr, "dwm: Could not popen  '%s'\n", command);
+        if(!(fp = (FILE*)popen("echo -n | dmenu -fn '" FONT "' -nb '" NORMBGCOLOR "' -nf '" NORMFGCOLOR "' -sb '" NORMBGCOLOR "' -sf '" SELFGCOLOR "'", "r")))
+                fprintf(stderr, "dwm: Could not popen 'echo -n | dmenu'\n");
         cp = fgets(name, MAX_TAGLEN - 2, fp);
         pclose(fp);
         if(cp == NULL)
