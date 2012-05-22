@@ -12,7 +12,7 @@ net-im/mcabber-modules
 net-im/skype
 net-libs/loudmouth
 sys-devel/clang
-sys-devel/dragonegg
+sys-devel/gcc **
 sys-devel/llvm
 www-client/firefox
 x11-terms/st
