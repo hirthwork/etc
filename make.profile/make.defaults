@@ -1,4 +1,4 @@
-USE="-* minimal X fontconfig ncurses ssl vim-syntax mmx sse sse2 ssse3 cscope gpg symlink unicode png jpeg tiff djvu svg savedconfig truetype cxx sasl"
+USE="-* minimal X fontconfig ncurses ssl vim-syntax mmx sse sse2 ssse3 cscope gpg symlink unicode png jpeg tiff djvu svg savedconfig truetype cxx sasl nptl"
 FEATURES="fixlafiles installsources news parallel-fetch sandbox splitdebug"
 LINGUAS="am en us ru hy hy_AM"
 INPUT_DEVICES="evdev keyboard mouse"
