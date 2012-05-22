@@ -1,8 +1,10 @@
 app-vim/clang-complete
 app-vim/cscope
 app-vim/javacomplete
+dev-libs/cloog-ppl
 dev-libs/nspr
 dev-libs/nss
+dev-libs/ppl
 mail-client/mutt
 net-im/mcabber
 net-im/mcabber-commands
