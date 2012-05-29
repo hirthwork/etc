@@ -1,4 +1,11 @@
 app-arch/p7zip
+app-emulation/emul-linux-x86-baselibs
+app-emulation/emul-linux-x86-db
+app-emulation/emul-linux-x86-medialibs
+app-emulation/emul-linux-x86-opengl
+app-emulation/emul-linux-x86-qtlibs
+app-emulation/emul-linux-x86-soundlibs
+app-emulation/emul-linux-x86-xlibs
 app-vim/clang-complete
 app-vim/cscope
 app-vim/javacomplete
@@ -11,7 +18,6 @@ net-im/mcabber
 net-im/mcabber-commands
 net-im/mcabber-modules
 net-im/skype
-net-libs/loudmouth
 sys-devel/clang
 sys-devel/gcc **
 sys-devel/llvm
