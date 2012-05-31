@@ -17,10 +17,14 @@ dev-libs/nss
 dev-libs/ppl
 dev-util/boost-build
 mail-client/mutt
+media-video/ffmpeg
+media-video/mplayer
 net-im/mcabber
 net-im/mcabber-commands
 net-im/mcabber-modules
 net-im/skype
+net-libs/libtorrent
+net-p2p/rtorrent
 sys-devel/clang
 sys-devel/gcc **
 sys-devel/llvm
