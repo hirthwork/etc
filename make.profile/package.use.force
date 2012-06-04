@@ -8,6 +8,7 @@ app-text/enchant aspell
 app-text/poppler cairo
 dev-db/sqlite extensions
 dev-lang/python sqlite threads xml
+dev-libs/gmp cxx
 dev-libs/libxml2 python
 dev-vcs/subversion webdav-neon
 kde-base/kcachegrind qt3support
@@ -24,7 +25,7 @@ net-im/mcabber-modules extsayng
 net-irc/irssi perl
 sys-apps/busybox pam
 sys-devel/clang multitarget
-sys-devel/gcc doc graphite mudflap openmp lto
+sys-devel/gcc cxx doc graphite mudflap openmp lto
 sys-devel/llvm multitarget
 www-client/firefox methodjit custom-optimization webm pgo
 www-plugins/adobe-flash 64bit
