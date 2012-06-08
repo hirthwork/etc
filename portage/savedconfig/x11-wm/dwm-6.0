@@ -67,7 +67,7 @@ static const Layout layouts[] = {
 
 /* commands */
 static const char *gmruncmd[] = { "gmrun", "-g", "+0+0", NULL };
-static const char *termcmd[]  = { "/usr/bin/uxterm", "-fn", "-misc-fixed-medium-r-semicondensed--12-110-75-75-c-60-iso10646-1", "+sb", "-bg", normbgcolor, "-fg", selfgcolor, "-cr", "white", "-b", "0", "-bc", "-uc", NULL };
+static const char *termcmd[]  = { "/usr/bin/uxterm", "-fn", "-misc-fixed-medium-r-semicondensed--12-110-75-75-c-60-iso10646-1", "+sb", "-bg", normbgcolor, "-fg", selfgcolor, "-cr", "white", "-bc", "-uc", NULL };
 static const char *scrotcmd[]  = { "/usr/bin/scrot", "/tmp/%Y%m%d-%H%M%S.png", NULL };
 
 static void nametag(const Arg *arg);
