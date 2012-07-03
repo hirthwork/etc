@@ -48,6 +48,7 @@
 *sys-apps/mlocate
 *sys-process/htop
 *sys-process/iotop
+*sys-process/vixie-cron
 *www-client/elinks
 *www-client/firefox
 *www-plugins/adobe-flash
