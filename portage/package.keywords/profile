@@ -18,7 +18,6 @@ dev-libs/ppl
 dev-util/boost-build
 dev-util/include-what-you-use
 mail-client/mutt
-media-video/ffmpeg
 media-video/mplayer
 net-im/mcabber
 net-im/mcabber-commands
