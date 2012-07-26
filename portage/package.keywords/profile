@@ -17,6 +17,7 @@ dev-libs/nss
 dev-libs/ppl
 dev-util/boost-build
 dev-util/include-what-you-use
+dev-vcs/subversion
 mail-client/mutt
 media-video/mplayer
 net-im/mcabber

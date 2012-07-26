@@ -6,9 +6,10 @@ app-portage/layman git subversion
 app-text/aiksaurus gtk
 app-text/enchant aspell
 app-text/poppler cairo
-dev-db/sqlite extensions
+dev-db/sqlite extensions threadsafe
 dev-lang/python sqlite threads xml
 dev-libs/gmp cxx
+dev-libs/libpcre cxx
 dev-libs/libxml2 python
 dev-vcs/subversion webdav-neon
 kde-base/kcachegrind qt3support
