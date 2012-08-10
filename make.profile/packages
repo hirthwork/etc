@@ -26,8 +26,7 @@
 *dev-util/valgrind
 *kde-base/kcachegrind
 *mail-client/mutt
-*media-fonts/corefonts
-*media-fonts/font-misc-misc
+*media-fonts/terminus-font
 *media-gfx/feh
 *media-gfx/gimp
 *media-gfx/scrot
@@ -61,5 +60,5 @@
 *x11-misc/slock
 *x11-misc/trayer
 *x11-misc/xsel
-*x11-terms/xterm
+*x11-terms/st
 *x11-wm/dwm
