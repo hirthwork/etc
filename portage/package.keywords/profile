@@ -19,7 +19,6 @@ dev-util/boost-build
 dev-util/include-what-you-use
 dev-vcs/subversion
 mail-client/mutt
-media-fonts/terminus-font
 media-video/mplayer
 net-im/mcabber
 net-im/mcabber-commands

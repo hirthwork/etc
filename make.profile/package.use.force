@@ -16,7 +16,7 @@ dev-libs/libxml2 python
 dev-vcs/subversion webdav-neon
 kde-base/kcachegrind qt3support
 mail-client/mutt berkdb imap pop smime smtp
-media-fonts/terminus-font pcf psf quote ru-dv ru-i
+media-fonts/font-misc-misc nls
 media-gfx/feh curl
 media-libs/gd zlib truetype
 media-libs/libpng apng

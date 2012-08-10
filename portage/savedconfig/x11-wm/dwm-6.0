@@ -1,7 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-#define FONT "-*-terminus-medium-r-*-*-16-*-*-*-*-*-*-*"
+#define FONT "-misc-fixed-medium-r-semicondensed--12-110-75-75-c-60-*-*"
 #define NORMBGCOLOR "#000000"
 #define NORMFGCOLOR "#555555"
 #define SELFGCOLOR "#aaaaaa"
@@ -67,7 +67,7 @@ static const Layout layouts[] = {
 
 /* commands */
 static const char *gmruncmd[] = { "gmrun", "-g", "+0+0", NULL };
-static const char *termcmd[]  = { "uxterm", "-fn", "-*-terminus-medium-r-*-*-16-*-*-*-*-*-*-*", "+sb", "-bg", normbgcolor, "-fg", selfgcolor, "-cr", "white", "-bc", "-uc", NULL };
+static const char *termcmd[]  = { "uxterm", "-fn", "-misc-fixed-medium-r-semicondensed--12-110-75-75-c-60-iso10646-1", "+sb", "-bg", normbgcolor, "-fg", selfgcolor, "-cr", "white", "-bc", "-uc", NULL };
 static const char *scrotcmd[]  = { "scrot", "/tmp/%Y%m%d-%H%M%S.png", NULL };
 
 static void nametag(const Arg *arg);
@@ -122,7 +122,6 @@ static Button buttons[] = {
 	{ ClkLtSymbol,          0,              Button1,        setlayout,      {0} },
 	{ ClkLtSymbol,          0,              Button3,        setlayout,      {.v = &layouts[2]} },
 	{ ClkWinTitle,          0,              Button2,        zoom,           {0} },
-	{ ClkStatusText,        0,              Button2,        spawn,          {.v = termcmd } },
 	{ ClkClientWin,         MODKEY,         Button1,        movemouse,      {0} },
 	{ ClkClientWin,         MODKEY,         Button2,        togglefloating, {0} },
 	{ ClkClientWin,         MODKEY,         Button3,        resizemouse,    {0} },
