@@ -7,6 +7,8 @@ app-text/aiksaurus gtk
 app-text/enchant aspell
 app-text/poppler cairo
 dev-db/sqlite extensions threadsafe
+dev-java/icedtea nsplugin
+dev-java/icedtea-web nsplugin
 dev-lang/python sqlite threads xml
 dev-libs/gmp cxx
 dev-libs/libpcre cxx

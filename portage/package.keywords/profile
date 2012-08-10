@@ -10,6 +10,8 @@ app-misc/strigi
 app-vim/clang-complete
 app-vim/cscope
 app-vim/javacomplete
+dev-java/icedtea
+dev-java/icedtea-web
 dev-libs/boost
 dev-libs/cloog-ppl
 dev-libs/ppl
