@@ -28,6 +28,7 @@ net-im/mcabber-modules
 net-im/skype
 net-libs/libtorrent
 net-p2p/rtorrent
+sys-boot/grub
 sys-devel/clang
 sys-devel/gcc **
 sys-devel/llvm
