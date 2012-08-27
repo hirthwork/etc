@@ -17,6 +17,7 @@ dev-libs/cloog-ppl
 dev-libs/ppl
 dev-util/boost-build
 dev-util/include-what-you-use
+dev-util/valgrind
 dev-vcs/subversion
 mail-client/mutt
 media-fonts/terminus-font
