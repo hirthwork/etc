@@ -1,7 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-#define FONT "-*-*-medium-r-*-*-*-140-72-72-*-80-iso10646-1"
+#define FONT "-*-*-medium-r-*-*-*-160-72-72-*-80-iso10646-1"
 #define NORMBGCOLOR "#000000"
 #define NORMFGCOLOR "#555555"
 #define SELFGCOLOR "#aaaaaa"
@@ -61,9 +61,6 @@ static const Layout layouts[] = {
 	{ MODKEY|ControlMask,           KEY,      toggleview,     {.ui = 1 << TAG} }, \
 	{ MODKEY|ShiftMask,             KEY,      tag,            {.ui = 1 << TAG} }, \
 	{ MODKEY|ControlMask|ShiftMask, KEY,      toggletag,      {.ui = 1 << TAG} },
-
-/* helper for spawning shell commands in the pre dwm-5.0 fashion */
-#define SHCMD(cmd) { .v = (const char*[]){ "/bin/sh", "-c", cmd, NULL } }
 
 /* commands */
 static const char *gmruncmd[] = { "gmrun", "-g", "+0+0", NULL };
