@@ -14,6 +14,8 @@ dev-java/icedtea
 dev-java/icedtea-web
 dev-libs/boost
 dev-libs/cloog-ppl
+dev-libs/nspr
+dev-libs/nss
 dev-libs/ppl
 dev-util/boost-build
 dev-util/include-what-you-use
