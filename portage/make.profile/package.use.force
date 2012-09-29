@@ -35,6 +35,7 @@ sys-devel/llvm multitarget
 www-client/firefox methodjit custom-optimization webm pgo
 www-plugins/adobe-flash 64bit
 x11-base/xorg-server udev xorg xvfb
+x11-libs/cairo glib
 x11-libs/qt-core exceptions glib qt3support
 x11-libs/qt-declarative accessibility qt3support
 x11-libs/qt-gui accessibility dbus glib qt3support
