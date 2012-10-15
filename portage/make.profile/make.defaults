@@ -2,7 +2,7 @@ CFLAGS="${CFLAGS} -O2 -pipe -march=native -fno-stack-protector -U_FORTIFY_SOURCE
 CPPFLAGS="${CFLAGS}"
 CXXFLAGS="${CFLAGS}"
 LDFLAGS="${LDFLAGS} -Wl,-O2"
-USE="-* minimal X fontconfig ncurses ssl vim-syntax mmx sse sse2 ssse3 cscope gpg symlink unicode png jpeg tiff djvu svg savedconfig sasl nptl"
+USE="-* minimal fontconfig ncurses ssl vim-syntax mmx sse sse2 ssse3 cscope gpg symlink unicode png jpeg tiff djvu svg savedconfig sasl nptl"
 FEATURES="fixlafiles installsources news parallel-fetch sandbox splitdebug"
 LINGUAS="am en us ru hy hy_AM"
 INPUT_DEVICES="evdev keyboard mouse"
