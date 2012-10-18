@@ -39,7 +39,6 @@ x11-base/xorg-server udev xorg xvfb
 x11-libs/cairo glib X
 x11-libs/gdk-pixbuf X
 x11-libs/gtk+ X
-x11-libs/pango X
 x11-libs/qt-core exceptions glib qt3support
 x11-libs/qt-declarative accessibility qt3support
 x11-libs/qt-gui accessibility dbus glib qt3support
