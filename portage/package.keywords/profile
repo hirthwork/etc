@@ -10,6 +10,8 @@ app-misc/strigi
 app-vim/clang-complete
 app-vim/cscope
 app-vim/javacomplete
+app-vim/supertab
+app-vim/tagbar
 dev-java/icedtea
 dev-java/icedtea-web
 dev-libs/boost

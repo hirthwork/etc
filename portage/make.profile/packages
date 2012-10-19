@@ -15,8 +15,8 @@
 *app-vim/cscope
 *app-vim/clang-complete
 *app-vim/javacomplete
-*app-vim/snipmate
 *app-vim/supertab
+*app-vim/tagbar
 *dev-util/cgdb
 *dev-util/cscope
 *dev-util/ctags
