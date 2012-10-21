@@ -16,10 +16,8 @@
 *app-vim/clang-complete
 *app-vim/javacomplete
 *app-vim/supertab
-*app-vim/tagbar
 *dev-util/cgdb
 *dev-util/cscope
-*dev-util/ctags
 *dev-util/debugedit
 *dev-util/include-what-you-use
 *dev-util/lafilefixer
