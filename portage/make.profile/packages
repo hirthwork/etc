@@ -18,6 +18,7 @@
 *app-vim/supertab
 *dev-util/cgdb
 *dev-util/cscope
+*dev-util/ctags
 *dev-util/debugedit
 *dev-util/include-what-you-use
 *dev-util/lafilefixer
