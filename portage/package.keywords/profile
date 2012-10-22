@@ -42,5 +42,7 @@ sys-devel/clang
 sys-devel/gcc **
 sys-devel/llvm
 www-client/firefox
+virtual/jdk
+virtual/jre
 x11-terms/st
 x11-wm/dwm
