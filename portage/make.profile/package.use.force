@@ -23,6 +23,7 @@ media-libs/gd zlib truetype
 media-libs/libpng apng
 media-libs/phonon gstreamer
 media-plugins/gst-plugins-meta ogg vorbis
+media-video/mplayer X
 net-analyzer/wireshark gtk pcap
 net-im/mcabber aspell modules unordered-completion
 net-im/mcabber-modules extsayng
