@@ -6,3 +6,4 @@ USE="-* minimal fontconfig ncurses ssl vim-syntax mmx sse sse2 ssse3 cscope gpg 
 FEATURES="fixlafiles installsources news parallel-fetch sandbox splitdebug"
 LINGUAS="am en us ru hy hy_AM"
 INPUT_DEVICES="evdev keyboard mouse"
+PYTHON_TARGETS="python3_2"
