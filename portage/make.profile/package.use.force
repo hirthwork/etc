@@ -36,7 +36,7 @@ sys-devel/gcc cxx doc graphite mudflap openmp lto
 sys-devel/llvm multitarget
 www-client/firefox jit custom-optimization webm pgo
 www-plugins/adobe-flash 64bit
-x11-base/xorg-server udev xorg xvfb
+x11-base/xorg-server kdrive udev xorg
 x11-libs/cairo glib X
 x11-libs/gdk-pixbuf X
 x11-libs/gtk+ X
