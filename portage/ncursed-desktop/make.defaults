@@ -1,0 +1,1 @@
+USE="${USE} fontconfig png jpeg tiff djvu svg ssse3"

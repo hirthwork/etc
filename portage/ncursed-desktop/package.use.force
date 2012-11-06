@@ -1,21 +1,10 @@
-app-arch/p7zip rar
-app-editors/vim vim-pager
 app-emulation/wine threads gecko opengl custom-cflags
 app-office/abiword spell plugins grammar openxml thesaurus
-app-portage/layman git subversion
 app-text/aiksaurus gtk
-app-text/enchant aspell
 app-text/poppler cairo
-dev-db/sqlite extensions threadsafe
 dev-java/icedtea nsplugin
 dev-java/icedtea-web nsplugin
-dev-lang/python sqlite threads xml
-dev-libs/gmp cxx
-dev-libs/libpcre cxx
-dev-libs/libxml2 python
-dev-vcs/subversion webdav-neon
 kde-base/kcachegrind qt3support
-mail-client/mutt berkdb imap pop smime smtp
 media-fonts/font-misc-misc nls X
 media-fonts/terminus-font center-tilde distinct-l pcf psf quote ru-dv ru-i X
 media-gfx/feh curl
@@ -25,15 +14,7 @@ media-libs/phonon gstreamer
 media-plugins/gst-plugins-meta ogg vorbis
 media-video/mplayer X
 net-analyzer/wireshark gtk pcap
-net-im/mcabber aspell modules unordered-completion
-net-im/mcabber-modules extsayng
-net-irc/irssi perl
-net-misc/curl curl_ssl_openssl
-sys-apps/busybox pam
 sys-apps/dbus X
-sys-devel/clang multitarget
-sys-devel/gcc cxx doc graphite mudflap openmp lto
-sys-devel/llvm multitarget
 www-client/firefox jit custom-optimization webm pgo
 www-plugins/adobe-flash 64bit
 x11-base/xorg-server kdrive udev xorg
