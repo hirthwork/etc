@@ -1,2 +1,1 @@
-app-text/evince dbus
 x11-base/xorg-server minimal

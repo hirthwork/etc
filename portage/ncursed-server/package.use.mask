@@ -1,1 +1,2 @@
 app-editors/vim minimal
+net-im/mcabber spell
