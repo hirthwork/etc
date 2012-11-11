@@ -1,2 +1,2 @@
-USE="${USE} -X -acpi -dbus -gpm -gtk -libnotify -qt4 -sdl -startup-notification -truetype -udisks -upower -wxwidgets djvu fontconfig ssse3"
+USE="${USE} -X -acpi -dbus -gpm -gtk -libnotify -qt4 -sdl -startup-notification -truetype -udisks -upower -wxwidgets -xv djvu fontconfig ssse3"
 INPUT_DEVICES="${INPUT_DEVICES} evdev keyboard mouse"
