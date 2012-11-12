@@ -13,12 +13,10 @@ app-vim/javacomplete
 app-vim/supertab
 dev-java/icedtea
 dev-java/icedtea-web
-dev-libs/boost
 dev-libs/cloog-ppl
 dev-libs/nspr
 dev-libs/nss
 dev-libs/ppl
-dev-util/boost-build
 dev-util/include-what-you-use
 dev-util/valgrind
 dev-vcs/git

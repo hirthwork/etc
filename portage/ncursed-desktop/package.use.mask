@@ -1,2 +1,2 @@
-app-text/evince dbus
+media-video/mplayer opengl
 x11-base/xorg-server minimal

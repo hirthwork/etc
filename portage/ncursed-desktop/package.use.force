@@ -9,15 +9,17 @@ media-fonts/font-misc-misc nls X
 media-fonts/terminus-font center-tilde distinct-l pcf psf quote ru-dv ru-i X
 media-gfx/feh curl
 media-libs/gd zlib truetype
+media-libs/imlib2 X
 media-libs/libpng apng
 media-libs/phonon gstreamer
 media-plugins/gst-plugins-meta ogg vorbis
 media-video/mplayer X
 net-analyzer/wireshark gtk pcap
 sys-apps/dbus X
+sys-auth/consolekit pam
 www-client/firefox jit custom-optimization webm pgo
 www-plugins/adobe-flash 64bit
-x11-base/xorg-server kdrive udev xorg
+x11-base/xorg-server kdrive udev xorg xvfb
 x11-libs/cairo glib X
 x11-libs/gdk-pixbuf X
 x11-libs/gtk+ X
