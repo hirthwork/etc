@@ -20,6 +20,7 @@ sys-auth/consolekit pam
 www-client/firefox jit custom-optimization webm pgo
 www-plugins/adobe-flash 64bit
 x11-base/xorg-server kdrive udev xorg xvfb
+x11-drivers/nvidia-drivers X tools
 x11-libs/cairo glib X
 x11-libs/gdk-pixbuf X
 x11-libs/gtk+ X
