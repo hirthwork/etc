@@ -26,6 +26,7 @@
 *net-im/mcabber-commands
 *net-im/mcabber-modules
 *net-irc/irssi
+*net-mail/qprint
 *net-misc/dhcpcd
 *net-misc/netkit-telnetd
 *net-misc/ntp
