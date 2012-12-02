@@ -42,5 +42,6 @@ sys-devel/llvm
 www-client/firefox
 virtual/jdk
 virtual/jre
+x11-misc/wmname
 x11-terms/st
 x11-wm/dwm
