@@ -15,7 +15,7 @@ static const char selfgcolor[]      = SELFGCOLOR;
 static const unsigned int borderpx  = 0;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const Bool showbar           = True;     /* False means no bar */
-static const Bool topbar            = True;     /* False means bottom bar */
+static const Bool topbar            = False;     /* False means bottom bar */
 
 /* tagging */
 #define MAX_TAGLEN 256
@@ -40,6 +40,7 @@ static const Rule rules[] = {
         { "xchm",     NULL,       NULL,       1 << 8,       False,       -1 },
         { "Xchm",     NULL,       NULL,       1 << 8,       False,       -1 },
         { "trayer",   NULL,       NULL,       ~0,           False,       -1 },
+        { "feh",      NULL,       NULL,       0,            True,        -1 },
 };
 
 /* layout(s) */
@@ -71,6 +72,7 @@ static const char *lockcmd[]  = { "sh", "-c", "$HOME/lock", NULL };
 static void nametag(const Arg *arg);
 static void nexttag(const Arg *arg);
 static void prevtag(const Arg *arg);
+static void flipbar(const Arg *arg);
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
@@ -79,6 +81,7 @@ static Key keys[] = {
         { MODKEY,                       XK_s,      spawn,          {.v = scrotcmd } },
         { MODKEY,                       XK_l,      spawn,          {.v = lockcmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
+	{ MODKEY|ShiftMask,             XK_b,      flipbar,        {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
 	{ MODKEY,                       XK_i,      incnmaster,     {.i = +1 } },
@@ -165,6 +168,13 @@ void prevtag(const Arg* arg) {
         if(1 & selmon->tagset[selmon->seltags])
                 return;
         selmon->tagset[selmon->seltags] >>= 1;
+        arrange(selmon);
+}
+
+void flipbar(const Arg *arg) {
+        selmon->topbar = !selmon->topbar;
+        updatebarpos(selmon);
+        XMoveResizeWindow(dpy, selmon->barwin, selmon->wx, selmon->by, selmon->ww, bh);
         arrange(selmon);
 }
 
