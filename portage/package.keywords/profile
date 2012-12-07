@@ -27,7 +27,6 @@ kde-base/kde-env
 kde-base/kdelibs
 kde-base/oxygen-icons
 mail-client/mutt
-media-fonts/terminus-font
 media-video/mplayer
 net-im/mcabber
 net-im/mcabber-commands

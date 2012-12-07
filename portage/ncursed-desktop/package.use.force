@@ -6,7 +6,7 @@ dev-java/icedtea nsplugin
 dev-java/icedtea-web nsplugin
 kde-base/kcachegrind qt3support
 media-fonts/font-misc-misc nls X
-media-fonts/terminus-font center-tilde distinct-l pcf psf quote ru-dv ru-i X
+media-fonts/liberation-fonts X
 media-gfx/feh curl
 media-libs/gd zlib truetype
 media-libs/imlib2 X

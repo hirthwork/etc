@@ -1,7 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-#define FONT "-*-*-medium-r-*-*-*-160-72-72-*-80-iso10646-1"
+#define FONT "-misc-fixed-medium-r-normal--14-130-75-75-c-70-*-*"
 #define NORMBGCOLOR "#000000"
 #define NORMFGCOLOR "#555555"
 #define SELFGCOLOR "#aaaaaa"
@@ -65,7 +65,7 @@ static const Layout layouts[] = {
 
 /* commands */
 static const char *gmruncmd[] = { "gmrun", "-g", "+0+0", NULL };
-static const char *termcmd[]  = { "uxterm", "-fn", FONT, "-fb", FONT, "+sb", "-bg", normbgcolor, "-fg", selfgcolor, "-cr", "white", "-bc", "-uc", NULL };
+static const char *termcmd[]  = { "st", NULL };
 static const char *scrotcmd[]  = { "scrot", "/tmp/%Y%m%d-%H%M%S.png", NULL };
 static const char *lockcmd[]  = { "sh", "-c", "$HOME/lock", NULL };
 
@@ -138,7 +138,7 @@ void nametag(const Arg *arg) {
         FILE *fp;
         int i;
 
-        if(!(fp = (FILE*)popen("echo -n | dmenu -fn '" FONT "' -nb '" NORMBGCOLOR "' -nf '" NORMFGCOLOR "' -sb '" NORMBGCOLOR "' -sf '" SELFGCOLOR "'", "r")))
+        if(!(fp = (FILE*)popen("echo -n | dmenu -b -fn '" FONT "' -nb '" NORMBGCOLOR "' -nf '" NORMFGCOLOR "' -sb '" NORMBGCOLOR "' -sf '" SELFGCOLOR "'", "r")))
                 fprintf(stderr, "dwm: Could not popen 'echo -n | dmenu'\n");
         cp = fgets(name, MAX_TAGLEN - 2, fp);
         pclose(fp);
