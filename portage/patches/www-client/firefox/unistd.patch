@@ -1,0 +1,47 @@
+--- a/mozilla-esr10/ipc/chromium/src/base/file_util.cc
++++ b/mozilla-esr10/ipc/chromium/src/base/file_util.cc
+@@ -8,7 +8,7 @@
+ #include <io.h>
+ #endif
+ #include <stdio.h>
+-#if defined(ANDROID)
++#if defined(ANDROID) || defined(OS_POSIX)
+ #include <unistd.h>
+ #endif
+
+--- a/mozilla-esr10/ipc/chromium/src/base/file_util_linux.cc
++++ b/mozilla-esr10/ipc/chromium/src/base/file_util_linux.cc
+@@ -5,6 +5,9 @@
+ #include "base/file_util.h"
+ 
+ #include <fcntl.h>
++#if defined(ANDROID) || defined(OS_POSIX)
++#include <unistd.h>
++#endif
+ 
+ #include <string>
+ #include <vector>
+--- a/mozilla-esr10/ipc/chromium/src/base/message_pump_libevent.cc
++++ b/mozilla-esr10/ipc/chromium/src/base/message_pump_libevent.cc
+@@ -6,6 +6,9 @@
+ 
+ #include <errno.h>
+ #include <fcntl.h>
++#if defined(ANDROID) || defined(OS_POSIX)
++#include <unistd.h>
++#endif
+ 
+ #include "eintr_wrapper.h"
+ #include "base/logging.h"
+--- a/mozilla-esr10/ipc/chromium/src/base/time_posix.cc
++++ b/mozilla-esr10/ipc/chromium/src/base/time_posix.cc
+@@ -13,6 +13,9 @@
+ #else
+ #include <time.h>
+ #endif
++#if defined(ANDROID) || defined(OS_POSIX)
++#include <unistd.h>
++#endif
+ 
+ #include <limits>
+ 

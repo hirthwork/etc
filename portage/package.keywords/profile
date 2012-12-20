@@ -14,8 +14,6 @@ app-vim/supertab
 dev-java/icedtea
 dev-java/icedtea-web
 dev-libs/cloog-ppl
-dev-libs/nspr
-dev-libs/nss
 dev-libs/ppl
 dev-util/include-what-you-use
 dev-util/valgrind
@@ -39,7 +37,6 @@ sys-boot/grub
 sys-devel/clang
 sys-devel/gcc **
 sys-devel/llvm
-www-client/firefox
 virtual/jdk
 virtual/jre
 x11-misc/wmname
