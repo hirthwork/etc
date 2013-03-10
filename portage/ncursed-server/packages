@@ -35,6 +35,7 @@
 *net-misc/whois
 *sci-mathematics/calc
 *sys-apps/daemonize
+*sys-apps/kmod
 *sys-apps/mlocate
 *sys-process/htop
 *sys-process/iotop
