@@ -1,0 +1,1 @@
+KERNEL=="sd[a-z][0-9]", ATTRS{vendor}=="Kingston", RUN+="/bin/mount /dev/%k /mnt/.ssh"
