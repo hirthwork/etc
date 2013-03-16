@@ -16,6 +16,7 @@ media-fonts/liberation-fonts X
 media-gfx/feh curl
 media-libs/gd zlib truetype
 media-libs/imlib2 X
+media-libs/libcanberra gtk
 media-libs/libpng apng
 media-libs/phonon gstreamer
 media-plugins/gst-plugins-meta ogg vorbis
