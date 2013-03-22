@@ -42,4 +42,4 @@
 *sys-process/iotop
 *sys-process/lsof
 *sys-process/vixie-cron
-*www-client/elinks
+*www-client/w3m
