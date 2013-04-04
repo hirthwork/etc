@@ -6,7 +6,9 @@ app-vim/javacomplete
 app-vim/supertab
 dev-java/icedtea
 dev-java/icedtea-web
+dev-libs/cloog
 dev-libs/cloog-ppl
+dev-libs/isl
 dev-libs/ppl
 dev-util/include-what-you-use
 dev-util/valgrind
@@ -23,7 +25,7 @@ net-libs/libtorrent
 net-p2p/rtorrent
 sys-boot/grub
 sys-devel/clang
-sys-devel/gcc
+sys-devel/gcc **
 sys-devel/llvm
 virtual/jdk
 virtual/jre
