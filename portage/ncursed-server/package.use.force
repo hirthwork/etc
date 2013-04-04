@@ -15,6 +15,7 @@ net-im/mcabber-modules extsayng
 net-irc/irssi perl
 net-misc/curl curl_ssl_openssl
 sys-apps/busybox pam
+sys-apps/dstat wifi
 sys-apps/kmod tools
 sys-devel/clang multitarget static-analyzer
 sys-devel/gcc cxx doc graphite mudflap openmp lto
