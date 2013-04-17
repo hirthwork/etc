@@ -12,8 +12,6 @@ dev-libs/isl
 dev-libs/ppl
 dev-util/include-what-you-use
 dev-util/valgrind
-dev-vcs/git
-dev-vcs/subversion
 mail-client/mutt
 media-video/mplayer
 net-im/mcabber
