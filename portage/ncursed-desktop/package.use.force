@@ -18,6 +18,7 @@ media-libs/gd zlib truetype
 media-libs/imlib2 X
 media-libs/libcanberra gtk
 media-libs/libpng apng
+media-libs/libvpx threads
 media-libs/phonon gstreamer
 media-plugins/gst-plugins-meta ogg vorbis
 media-video/mplayer X
