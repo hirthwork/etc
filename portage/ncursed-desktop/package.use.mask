@@ -1,1 +1,2 @@
+net-analyzer/wireshark ssl
 x11-base/xorg-server minimal
