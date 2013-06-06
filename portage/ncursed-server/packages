@@ -8,7 +8,6 @@
 *app-portage/layman
 *app-portage/portage-utils
 *app-shells/zsh
-*app-vim/clang-complete
 *app-vim/cscope
 *app-vim/javacomplete
 *app-vim/supertab
@@ -17,8 +16,6 @@
 *dev-util/cscope
 *dev-util/ctags
 *dev-util/debugedit
-*dev-util/include-what-you-use
-*dev-util/lafilefixer
 *dev-util/valgrind
 *mail-client/mutt
 *net-analyzer/netcat
