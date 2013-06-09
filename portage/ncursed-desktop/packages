@@ -16,6 +16,7 @@
 *www-client/firefox
 *www-plugins/adobe-flash
 *x11-apps/setxkbmap
+*x11-apps/xmodmap
 *x11-apps/xsetroot
 *x11-base/xorg-server
 *x11-misc/dmenu
