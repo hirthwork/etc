@@ -1,5 +1,6 @@
 *app-arch/p7zip
 *app-arch/unzip
+*app-editors/hexedit
 *app-editors/vim
 *app-i18n/enca
 *app-misc/rlwrap
