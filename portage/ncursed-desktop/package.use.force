@@ -1,7 +1,7 @@
 app-emulation/wine threads gecko opengl custom-cflags
 app-office/abiword spell plugins grammar openxml thesaurus
 app-text/aiksaurus gtk
-app-text/poppler cairo utils
+app-text/poppler cairo cxx utils
 dev-java/icedtea nsplugin
 dev-java/icedtea-web nsplugin
 dev-qt/qt3support accessibility
