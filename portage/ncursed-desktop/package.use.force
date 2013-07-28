@@ -4,6 +4,7 @@ app-text/aiksaurus gtk
 app-text/poppler cairo cxx utils
 dev-java/icedtea nsplugin
 dev-java/icedtea-web nsplugin
+dev-libs/libattica qt4
 dev-qt/qt3support accessibility
 dev-qt/qtcore glib
 dev-qt/qtdeclarative accessibility
