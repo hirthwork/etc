@@ -163,7 +163,7 @@ window.init_funcs = {
     last_win_check = function (w)
         w.win:add_signal("destroy", function ()
             -- call the quit function if this was the last window left
-            if #luakit.windows == 0 then luakit.quit() end
+            if #luakit.windows == 0 then w:save_session() luakit.quit() end
             if w.close_win then w:close_win() end
         end)
     end,
