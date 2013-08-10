@@ -10,8 +10,6 @@
 *app-portage/portage-utils
 *app-shells/zsh
 *app-vim/cscope
-*app-vim/javacomplete
-*app-vim/supertab
 *dev-perl/Text-Aspell
 *dev-util/cgdb
 *dev-util/cscope
