@@ -27,7 +27,7 @@ net-analyzer/wireshark gtk pcap
 sys-apps/dbus X
 sys-auth/consolekit pam
 sys-fs/udev openrc
-www-client/firefox jit custom-optimization webm pgo
+www-client/luakit luajit
 www-plugins/adobe-flash 64bit
 x11-base/xorg-server kdrive udev xorg xvfb
 x11-drivers/nvidia-drivers X tools

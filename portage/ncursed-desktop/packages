@@ -13,7 +13,7 @@
 *net-analyzer/wireshark
 *net-im/skype
 *net-misc/x11-ssh-askpass
-*www-client/firefox
+*www-client/luakit
 *www-plugins/adobe-flash
 *x11-apps/setxkbmap
 *x11-apps/xmodmap
