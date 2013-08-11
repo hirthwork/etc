@@ -93,7 +93,26 @@ domain_props = {
     [".google.com"] = {
         enable_scripts = true,
     },
+    [".github.com"] = {
+        enable_scripts = true,
+    },
+    [".d3.ru"] = {
+        enable_scripts = true,
+        enable_plugins = true,
+    },
+    [".vk.com"] = {
+        enable_scripts = true,
+        enable_plugins = true,
+    },
     ["youtube.com"] = {
+        enable_scripts = true,
+        enable_plugins = true,
+    },
+    ["vimeocdn.com"] = {
+        enable_scripts = true,
+        enable_plugins = true,
+    },
+    ["vimeo.com"] = {
         enable_scripts = true,
         enable_plugins = true,
     },
