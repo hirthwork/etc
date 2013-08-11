@@ -24,7 +24,7 @@ theme.notif_fg = "#444"
 theme.notif_bg = "#222"
 
 -- Menu colours
-theme.menu_fg                   = "#000"
+theme.menu_fg                   = "#FF0"
 theme.menu_bg                   = "#222"
 theme.menu_selected_fg          = "#000"
 theme.menu_selected_bg          = "#FF0"
