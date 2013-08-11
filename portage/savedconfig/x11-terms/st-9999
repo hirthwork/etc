@@ -5,20 +5,15 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char font[] = "Liberation Mono:pixelsize=12:antialias=false:autohint=false";
-static int borderpx = 2;
+static char font[] = "-misc-fixed-medium-r-semicondensed--12-110-75-75-c-60-iso10646-1";
+static int borderpx = 0;
 static char shell[] = "/bin/sh";
 
 /* Kerning / character bounding-box mutlipliers */
 float cwscale = 1.0;
 float chscale = 1.0;
 
-/*
- * word delimiter string
- *
- * More advanced example: " `'\"()[]{}"
- */
-static char worddelimiters[] = " ";
+static char worddelimiters[] = " .,;:`'\"()[]{}";
 
 /* selection timeouts (in milliseconds) */
 static unsigned int doubleclicktimeout = 300;
@@ -69,6 +64,7 @@ static const char *colorname[] = {
 
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#cccccc",
+	"#aaaaaa"
 };
 
 
@@ -76,7 +72,7 @@ static const char *colorname[] = {
  * Default colors (colorname index)
  * foreground, background, cursor
  */
-static unsigned int defaultfg = 7;
+static unsigned int defaultfg = 257;
 static unsigned int defaultbg = 0;
 static unsigned int defaultcs = 256;
 
