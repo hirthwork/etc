@@ -1,7 +1,6 @@
 -- Global variables for luakit
 globals = {
-    homepage            = "http://luakit.org/",
- -- homepage            = "http://github.com/mason-larobina/luakit",
+    homepage            = "http://yandex.ru/",
     scroll_step         = 40,
     zoom_step           = 0.1,
     max_cmd_history     = 100,
@@ -51,11 +50,15 @@ soup.accept_policy = cookie_policy.always
 -- it to avoid collisions with lua's string.format characters.
 -- See: http://www.lua.org/manual/5.1/manual.html#pdf-string.format
 search_engines = {
-    duckduckgo  = "https://duckduckgo.com/?q=%s",
     github      = "https://github.com/search?q=%s",
     google      = "https://google.com/search?q=%s",
+    yandex      = "http://yandex.ru/yandsearch?text=%s",
+    gmaps       = "https://maps.google.com/?q=%s",
+    maps        = "http://maps.yandex.ru/?text=%s",
+    market      = "http://market.yandex.ru/search.xml?text=%s",
     imdb        = "http://www.imdb.com/find?s=all&q=%s",
-    wikipedia   = "https://en.wikipedia.org/wiki/Special:Search?search=%s",
+    en          = "https://en.wikipedia.org/wiki/Special:Search?search=%s",
+    ru          = "https://ru.wikipedia.org/wiki/Special:Search?search=%s",
 }
 
 -- Set google as fallback search engine

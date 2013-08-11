@@ -181,4 +181,6 @@ end
 noscript.enable_scripts = false
 noscript.enable_plugins = false
 
+downloads.default_dir = "/tmp"
+
 -- vim: et:sw=4:ts=8:sts=4:tw=80
