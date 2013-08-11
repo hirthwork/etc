@@ -90,6 +90,10 @@ domain_props = {
     [".yandex-team.ru"] = {
         enable_scripts = true,
     },
+    ["maps.yandex.ru"] = {
+        enable_scripts = true,
+        user_stylesheet_uri = "",
+    },
     [".google.com"] = {
         enable_scripts = true,
     },
