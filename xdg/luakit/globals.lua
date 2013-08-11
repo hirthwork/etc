@@ -75,16 +75,19 @@ domain_props = {
         enable_private_browsing = false,
         user_stylesheet_uri     = "file://" .. luakit.data_dir .. "/fixed.css",
     },
-    [".yandex.com.tr"] = {
-        enable_scripts = true,
-    },
     [".yandex.com"] = {
         enable_scripts = true,
     },
-    [".yandex.st"] = {
+    [".yandex.com.tr"] = {
+        enable_scripts = true,
+    },
+    [".yandex.net"] = {
         enable_scripts = true,
     },
     [".yandex.ru"] = {
+        enable_scripts = true,
+    },
+    [".yandex.st"] = {
         enable_scripts = true,
     },
     [".yandex-team.ru"] = {
