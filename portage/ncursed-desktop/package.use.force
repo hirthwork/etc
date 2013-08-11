@@ -24,6 +24,7 @@ media-libs/phonon gstreamer
 media-plugins/gst-plugins-meta ogg vorbis
 media-video/mplayer X
 net-analyzer/wireshark gtk pcap
+net-libs/webkit-gtk jit
 sys-apps/dbus X
 sys-auth/consolekit pam
 sys-fs/udev openrc
