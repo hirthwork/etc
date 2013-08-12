@@ -3,6 +3,7 @@ app-misc/strigi
 app-vim/cscope
 dev-java/icedtea
 dev-java/icedtea-web
+dev-lang/luajit
 dev-libs/cloog
 dev-libs/cloog-ppl
 dev-libs/isl
