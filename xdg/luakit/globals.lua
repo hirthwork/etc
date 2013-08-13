@@ -59,6 +59,8 @@ search_engines = {
     imdb        = "http://www.imdb.com/find?s=all&q=%s",
     en          = "https://en.wikipedia.org/wiki/Special:Search?search=%s",
     ru          = "https://ru.wikipedia.org/wiki/Special:Search?search=%s",
+    wiki        = "http://search.yandex-team.ru/search?text=%s",
+    staff       = "http://staff.yandex.ru/staff/result.xhtml?name=%s",
 }
 
 -- Set google as fallback search engine
