@@ -2,9 +2,9 @@
 
 /* appearance */
 #define FONT "-misc-fixed-medium-r-normal--15-140-75-75-c-90-*-*"
-#define NORMBGCOLOR "#000000"
-#define NORMFGCOLOR "#555555"
-#define SELFGCOLOR "#aaaaaa"
+#define NORMBGCOLOR "#444444"
+#define NORMFGCOLOR "#888888"
+#define SELFGCOLOR "#cccccc"
 static const char font[]            = FONT;
 static const char normbordercolor[] = NORMBGCOLOR;
 static const char normbgcolor[]     = NORMBGCOLOR;

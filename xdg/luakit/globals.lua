@@ -60,7 +60,7 @@ search_engines = {
     en          = "https://en.wikipedia.org/wiki/Special:Search?search=%s",
     ru          = "https://ru.wikipedia.org/wiki/Special:Search?search=%s",
     wiki        = "http://search.yandex-team.ru/search?text=%s",
-    staff       = "http://staff.yandex.ru/staff/result.xhtml?name=%s",
+    staff       = "http://search.yandex-team.ru/peoplesearch?text=%s",
 }
 
 -- Set google as fallback search engine
@@ -75,7 +75,7 @@ domain_props = {
         enable_scripts          = false,
         enable_plugins          = false,
         enable_private_browsing = false,
-        user_stylesheet_uri     = "file://" .. luakit.data_dir .. "/fixed.css",
+        user_stylesheet_uri     = "file:///etc/xdg/luakit/theme.css",
     },
     [".yandex.com"] = {
         enable_scripts = true,
