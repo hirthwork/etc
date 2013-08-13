@@ -23,7 +23,7 @@ sys-devel/gcc **
 sys-devel/llvm
 virtual/jdk
 virtual/jre
-www-client/luakit
+www-client/luakit **
 x11-misc/wmname
 x11-terms/st **
 x11-wm/dwm
