@@ -105,6 +105,15 @@ domain_props = {
     [".github.com"] = {
         enable_scripts = true,
     },
+    [".point.im"] = {
+        enable_scripts = true,
+    },
+    [".psto.net"] = {
+        enable_scripts = true,
+    },
+    [".juick.com"] = {
+        enable_scripts = true,
+    },
     [".d3.ru"] = {
         enable_scripts = true,
         enable_plugins = true,
