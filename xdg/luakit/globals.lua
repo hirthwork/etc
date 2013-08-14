@@ -114,6 +114,21 @@ domain_props = {
     [".juick.com"] = {
         enable_scripts = true,
     },
+    [".bitbucket.org"] = {
+        enable_scripts = true,
+    },
+    [".gog.com"] = {
+        enable_scripts = true,
+    },
+    [".rt.ru"] = {
+        enable_scripts = true,
+    },
+    [".mosenergosbyt.ru"] = {
+        enable_scripts = true,
+    },
+    ["issues.apache.org"] = {
+        enable_scripts = true,
+    },
     [".d3.ru"] = {
         enable_scripts = true,
         enable_plugins = true,
