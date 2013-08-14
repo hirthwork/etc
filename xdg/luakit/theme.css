@@ -1,0 +1,13 @@
+* {
+    font-size: 15px;
+    color: #aaa;
+    background-color: #444 !important;
+    background-image: none !important;
+    border-color: #555;
+    font-family: Fixed !important;
+}
+
+a:link {
+    color: #8888aa !important;
+}
+
