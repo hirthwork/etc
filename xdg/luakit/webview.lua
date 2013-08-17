@@ -304,7 +304,47 @@ webview.methods = {
             end
         end
         view:reload()
-    end
+    end,
+
+    toggle_java_script = function(view, w)
+        if view.uri == "about:blank" then return end
+        local domain = lousy.uri.parse(view.uri).host
+        domain = string.match(domain or "", "^www%.(.+)") or domain or "all"
+        if view.enable_scripts then
+            if domain_props[domain] then
+                domain_props[domain].enable_scripts = false
+            else
+                domain_props[domain] = {enable_scripts = false}
+            end
+        else
+            if domain_props[domain] then
+                domain_props[domain].enable_scripts = true
+            else
+               domain_props[domain] = {enable_scripts = true}
+            end
+        end
+        view:reload()
+    end,
+
+    toggle_plugins = function(view, w)
+        if view.uri == "about:blank" then return end
+        local domain = lousy.uri.parse(view.uri).host
+        domain = string.match(domain or "", "^www%.(.+)") or domain or "all"
+        if view.enable_plugins then
+            if domain_props[domain] then
+                domain_props[domain].enable_plugins = false
+            else
+                domain_props[domain] = {enable_plugins = false}
+            end
+        else
+            if domain_props[domain] then
+                domain_props[domain].enable_plugins = true
+            else
+               domain_props[domain] = {enable_plugins = true}
+            end
+        end
+        view:reload()
+    end,
 }
 
 function webview.methods.scroll(view, w, new)

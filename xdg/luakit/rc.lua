@@ -180,6 +180,10 @@ end
 
 downloads.default_dir = "/tmp"
 local buf = lousy.bind.buf
-add_binds("normal", {buf("^,us$", function (w) w:toggle_user_stylesheet() end)})
+add_binds("normal", {
+    buf("^,us$", function (w) w:toggle_user_stylesheet() end),
+    buf("^,tj$", function (w) w:toggle_java_script() end),
+    buf("^,tp$", function (w) w:toggle_plugins() end)
+})
 
 -- vim: et:sw=4:ts=8:sts=4:tw=80
