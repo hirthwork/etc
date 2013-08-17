@@ -23,6 +23,13 @@ set ai                  " Always set auto-indenting on
 set history=50          " keep 50 lines of command history
 set ruler               " Show the cursor position all the time
 
+set expandtab
+set smarttab
+set autoindent
+set smartindent
+set softtabstop=4
+set shiftwidth=4
+
 set viminfo='20,\"500   " Keep a .viminfo file.
 
 " Don't use Ex mode, use Q for formatting
