@@ -283,6 +283,28 @@ webview.methods = {
     forward = function (view, w, n)
         view:go_forward(n or 1)
     end,
+
+    toggle_user_stylesheet = function(view, w)
+        if view.uri == "about:blank" then return end
+        local domain = lousy.uri.parse(view.uri).host
+        domain = string.match(domain or "", "^www%.(.+)") or domain or "all"
+        if view.user_stylesheet_uri and string.len(view.user_stylesheet_uri) > 0 then
+            if domain_props[domain] then
+                domain_props[domain].disabled_stylesheet =
+                    domain_props[domain].user_stylesheet_uri
+                domain_props[domain].user_stylesheet_uri = ""
+            else
+                domain_props[domain] = {user_stylesheet_uri = ""}
+            end
+        else
+            if domain_props[domain] then
+                domain_props[domain].user_stylesheet_uri =
+                    domain_props[domain].disabled_stylesheet
+                domain_props[domain].disabled_stylesheet = nil
+            end
+        end
+        view:reload()
+    end
 }
 
 function webview.methods.scroll(view, w, new)
