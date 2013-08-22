@@ -59,9 +59,17 @@ search_engines = {
     imdb        = "http://www.imdb.com/find?s=all&q=%s",
     en          = "https://en.wikipedia.org/wiki/Special:Search?search=%s",
     ru          = "https://ru.wikipedia.org/wiki/Special:Search?search=%s",
-    wiki        = "http://search.yandex-team.ru/search?text=%s",
-    staff       = "http://search.yandex-team.ru/peoplesearch?text=%s",
 }
+
+custom_search_engines = luakit.data_dir .. "/search-engines.txt"
+if os.exists(custom_search_engines) then
+    for line in io.lines(custom_search_engines) do
+        local name, uri = string.gmatch(line, "(%w+)%s+(%S+)")()
+        if uri then
+            search_engines[name] = uri
+        end
+    end
+end
 
 -- Set google as fallback search engine
 search_engines.default = search_engines.google
