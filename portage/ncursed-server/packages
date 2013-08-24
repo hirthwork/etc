@@ -26,10 +26,12 @@
 *net-im/mcabber-modules
 *net-im/mcabber-mucignore
 *net-irc/irssi
+*net-mail/offlineimap
 *net-mail/qprint
 *net-misc/dhcpcd
 *net-misc/netkit-telnetd
 *net-misc/ntp
+*net-misc/urlview
 *net-misc/whois
 *sci-mathematics/calc
 *sys-apps/daemonize

@@ -10,6 +10,7 @@ dev-libs/libpcre cxx
 dev-libs/libxml2 python
 dev-vcs/subversion webdav-neon
 mail-client/mutt berkdb imap pop smime smtp
+net-mail/offlineimap sqlite
 net-im/mcabber aspell modules unordered-completion
 net-im/mcabber-modules extsayng
 net-irc/irssi perl
