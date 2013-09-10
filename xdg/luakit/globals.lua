@@ -54,7 +54,7 @@ search_engines = {
     google      = "https://google.com/search?q=%s",
     yandex      = "http://yandex.ru/yandsearch?text=%s",
     gmaps       = "https://maps.google.com/?q=%s",
-    maps        = "http://maps.yandex.ru/?text=%s",
+    maps        = "http://maps.yandex.ru/?l=map,trf,trfe&text=%s",
     market      = "http://market.yandex.ru/search.xml?text=%s",
     imdb        = "http://www.imdb.com/find?s=all&q=%s",
     en          = "https://en.wikipedia.org/wiki/Special:Search?search=%s",
