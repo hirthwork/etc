@@ -3,10 +3,7 @@ app-editors/vim vim-pager
 app-portage/layman git subversion
 app-text/enchant aspell
 dev-db/sqlite extensions threadsafe
-dev-java/icedtea doc
 dev-lang/python sqlite threads xml
-dev-libs/gmp cxx
-dev-libs/libpcre cxx
 dev-libs/libxml2 python
 dev-vcs/subversion webdav-neon
 mail-client/mutt berkdb imap pop smime smtp
@@ -19,5 +16,5 @@ sys-apps/busybox pam
 sys-apps/dstat wifi
 sys-apps/kmod tools
 sys-devel/clang multitarget static-analyzer
-sys-devel/gcc cxx doc graphite mudflap openmp lto
+sys-devel/gcc cxx graphite mudflap openmp lto
 sys-devel/llvm clang multitarget static-analyzer

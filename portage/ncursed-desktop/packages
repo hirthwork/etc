@@ -4,7 +4,7 @@
 *app-office/gnumeric
 *app-text/evince
 *app-text/xchm
-*kde-base/kcachegrind
+*dev-util/debugedit
 *media-fonts/font-misc-misc
 *media-fonts/liberation-fonts
 *media-gfx/feh
