@@ -9,7 +9,6 @@
 *app-portage/layman
 *app-portage/portage-utils
 *app-shells/zsh
-*app-vim/cscope
 *dev-perl/Text-Aspell
 *dev-util/cgdb
 *dev-util/cscope
