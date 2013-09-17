@@ -1,4 +1,4 @@
 <layman>
-	<overlay contact="potapov.d@gmail.com" name="ncursed-desktop" src="git://github.com/hirthwork/ncursed-desktop" type="git"/>
-	<overlay contact="potapov.d@gmail.com" name="reinvented-wheels" src="git://github.com/hirthwork/reinvented-wheels" type="git"/>
+	<overlay contact="potapov.d@gmail.com" name="ncursed-desktop" src="git://github.com/hirthwork/ncursed-desktop.git" type="git"/>
+	<overlay contact="potapov.d@gmail.com" name="reinvented-wheels" src="git://github.com/hirthwork/reinvented-wheels.git" type="git"/>
 </layman>
