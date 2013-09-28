@@ -4,6 +4,7 @@ app-editors/vim-core
 app-misc/strigi
 app-vim/cscope
 dev-java/icedtea
+dev-java/icedtea-bin
 dev-java/icedtea-web
 dev-lang/luajit
 dev-libs/cloog
