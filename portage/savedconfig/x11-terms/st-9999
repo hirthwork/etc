@@ -7,6 +7,7 @@
  */
 static char font[] = "Fixed:pixelsize=15:antialias=false:autohint=false";
 static int borderpx = 0;
+static int bellvolume = 0;
 static char shell[] = "/bin/sh";
 
 /* Kerning / character bounding-box mutlipliers */
