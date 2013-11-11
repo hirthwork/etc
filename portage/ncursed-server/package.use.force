@@ -6,6 +6,7 @@ dev-db/sqlite extensions threadsafe
 dev-lang/python sqlite threads xml
 dev-libs/gmp cxx
 dev-libs/libxml2 python
+dev-vcs/git blksha1
 dev-vcs/subversion webdav-neon
 mail-client/mutt berkdb imap pop smime smtp
 net-mail/offlineimap sqlite
