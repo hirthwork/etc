@@ -1,4 +1,4 @@
-USE="${USE} djvu fontconfig ssse3"
+USE="${USE} djvu fontconfig ssse3 threads"
 INPUT_DEVICES="${INPUT_DEVICES} evdev keyboard mouse"
 FEATURES="${FEATURES} installsources splitdebug"
 LINGUAS="${LINGUAS} en ru ru_RU hy hy_AM"

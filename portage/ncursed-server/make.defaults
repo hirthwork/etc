@@ -2,7 +2,7 @@ CFLAGS="${CFLAGS} -O2 -pipe -march=native -fno-stack-protector -finline-function
 CPPFLAGS="${CFLAGS} -U_FORTIFY_SOURCE"
 CXXFLAGS="${CFLAGS} -U_FORTIFY_SOURCE"
 LDFLAGS="${LDFLAGS} -Wl,-O2"
-USE="-* cscope minimal mmx ncurses nptl sasl savedconfig sse sse2 ssl symlink threads unicode vim-syntax zsh-completion ${USE} -X -acpi -bluetooth -dbus -gpm -gtk -gtk2 -gtk3 -libnotify -opengl -qt4 -sdl -startup-notification -truetype -udisks -upower -wxwidgets -xv"
+USE="-* cscope minimal mmx ncurses nptl sasl savedconfig sse sse2 ssl symlink unicode vim-syntax zsh-completion ${USE} -X -acpi -bluetooth -dbus -gpm -gtk -gtk2 -gtk3 -libnotify -opengl -qt4 -sdl -startup-notification -truetype -udisks -upower -wxwidgets -xv"
 FEATURES="${FEATURES} fixlafiles news parallel-fetch sandbox"
 LINGUAS="${LINGUAS} en"
 ABI_X86="32"
