@@ -1,4 +1,5 @@
-USE="${USE} -X -acpi -dbus -gpm -gtk -libnotify -opengl -qt4 -sdl -startup-notification -truetype -udisks -upower -wxwidgets -xv djvu fontconfig ssse3"
+USE="${USE} djvu fontconfig ssse3"
 INPUT_DEVICES="${INPUT_DEVICES} evdev keyboard mouse"
 FEATURES="${FEATURES} installsources splitdebug"
 LINGUAS="${LINGUAS} en ru ru_RU hy hy_AM"
+ABI_X86="64"

@@ -13,7 +13,6 @@ net-mail/offlineimap sqlite
 net-im/mcabber aspell modules unordered-completion
 net-im/mcabber-modules extsayng
 net-irc/irssi perl
-net-misc/curl curl_ssl_openssl
 sys-apps/busybox pam
 sys-apps/dstat wifi
 sys-apps/kmod tools

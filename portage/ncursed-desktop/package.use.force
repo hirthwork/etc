@@ -3,25 +3,16 @@ app-office/abiword spell plugins grammar openxml thesaurus
 app-text/aiksaurus gtk
 app-text/poppler cairo cxx utils
 dev-java/icedtea doc
-dev-libs/libattica qt4
-dev-qt/qt3support accessibility
-dev-qt/qtcore glib
-dev-qt/qtdeclarative accessibility
-dev-qt/qtgui accessibility dbus glib
-dev-qt/qtsql sqlite
-dev-qt/qtsvg accessibility
-kde-base/kcachegrind qt3support
 media-fonts/font-misc-misc nls X
 media-fonts/liberation-fonts X
 media-gfx/feh curl
 media-libs/gd zlib truetype
 media-libs/imlib2 X
-media-libs/libcanberra gtk
 media-libs/libpng apng
 media-libs/libvpx threads
 media-libs/phonon gstreamer
 media-plugins/gst-plugins-meta ogg vorbis
-media-video/mplayer X
+media-video/mplayer X sdl
 net-analyzer/wireshark gtk3 pcap
 net-libs/webkit-gtk jit
 sys-apps/dbus X
@@ -29,11 +20,8 @@ sys-auth/consolekit pam
 sys-fs/udev gudev openrc
 virtual/udev gudev
 www-client/luakit luajit
-www-plugins/adobe-flash 64bit
 x11-base/xorg-server kdrive udev xorg xvfb
 x11-drivers/nvidia-drivers X tools
-x11-libs/cairo glib X
 x11-libs/gdk-pixbuf X
 x11-libs/gtk+ X
 x11-libs/pango X
-x11-libs/wxGTK X
