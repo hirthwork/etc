@@ -2,8 +2,7 @@ app-arch/p7zip rar
 app-editors/vim vim-pager
 app-portage/layman git subversion
 app-text/enchant aspell
-dev-db/sqlite extensions threadsafe
-dev-lang/python sqlite threads xml
+dev-lang/python sqlite xml
 dev-libs/gmp cxx
 dev-libs/libxml2 python
 dev-vcs/git blksha1
