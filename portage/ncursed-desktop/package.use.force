@@ -20,7 +20,7 @@ sys-auth/consolekit pam
 sys-fs/udev gudev openrc
 virtual/udev gudev
 www-client/luakit luajit
-x11-base/xorg-server kdrive udev xorg xvfb
+x11-base/xorg-server kdrive xorg xvfb
 x11-drivers/nvidia-drivers X tools
 x11-libs/gdk-pixbuf X
 x11-libs/gtk+ X
