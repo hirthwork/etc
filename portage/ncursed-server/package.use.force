@@ -2,13 +2,12 @@ app-arch/p7zip rar
 app-editors/vim vim-pager
 app-portage/layman git subversion
 app-text/enchant aspell
-dev-lang/python sqlite xml
+dev-lang/python xml
 dev-libs/gmp cxx
 dev-libs/libxml2 python
 dev-vcs/git blksha1
 dev-vcs/subversion webdav-neon
 mail-client/mutt berkdb imap pop smime smtp
-net-mail/offlineimap sqlite
 net-im/mcabber aspell modules unordered-completion
 net-im/mcabber-modules extsayng
 net-irc/irssi perl
