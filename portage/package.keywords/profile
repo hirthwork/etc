@@ -19,6 +19,7 @@ net-im/mcabber-modules
 net-im/mcabber-mucignore
 net-im/skype
 net-libs/libtorrent
+net-mail/offlineimap
 net-p2p/rtorrent
 sys-boot/grub
 sys-devel/clang
