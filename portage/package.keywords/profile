@@ -6,7 +6,6 @@ app-vim/cscope
 dev-java/icedtea
 dev-java/icedtea-bin
 dev-java/icedtea-web
-dev-lang/luajit
 dev-libs/cloog
 dev-libs/cloog-ppl
 dev-libs/isl
@@ -21,13 +20,11 @@ net-im/skype
 net-libs/libtorrent
 net-mail/offlineimap
 net-p2p/rtorrent
-sys-boot/grub
 sys-devel/clang
 sys-devel/gcc **
 sys-devel/llvm
 virtual/jdk
 virtual/jre
-www-client/luakit **
 x11-misc/wmname
 x11-terms/st **
 x11-wm/dwm
