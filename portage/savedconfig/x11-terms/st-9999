@@ -7,11 +7,14 @@
  */
 static char font[] = "Fixed:pixelsize=15:antialias=false:autohint=false";
 static int borderpx = 0;
+static int bellvolume = 0;
 static char shell[] = "/bin/sh";
 
 /* Kerning / character bounding-box mutlipliers */
 float cwscale = 1.0;
 float chscale = 1.0;
+
+static char worddelimiters[] = " .,;:`'\"()[]{}";
 
 /* selection timeouts (in milliseconds) */
 static unsigned int doubleclicktimeout = 300;
@@ -23,6 +26,12 @@ static bool allowaltscreen = true;
 /* frames per second st should at maximum draw to the screen */
 static unsigned int xfps = 120;
 static unsigned int actionfps = 30;
+
+/*
+ * blinking timeout (set to 0 to disable blinking) for the terminal blinking
+ * attribute.
+ */
+static unsigned int blinktimeout = 800;
 
 /* TERM value */
 static char termname[] = "st-256color";
@@ -76,6 +85,14 @@ static unsigned int defaultcs = 256;
  */
 static unsigned int defaultitalic = 11;
 static unsigned int defaultunderline = 7;
+
+/* Internal mouse shortcuts. */
+/* Beware that overloading Button1 will disable the selection. */
+static Mousekey mshortcuts[] = {
+	/* keysym		mask		string */
+	{ Button4,		XK_ANY_MOD,	"\031"},
+	{ Button5,		XK_ANY_MOD,	"\005"},
+};
 
 /* Internal keyboard shortcuts. */
 #define MODKEY Mod1Mask
