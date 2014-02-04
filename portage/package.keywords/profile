@@ -10,6 +10,7 @@ dev-libs/cloog
 dev-libs/cloog-ppl
 dev-libs/isl
 dev-libs/ppl
+dev-util/systemtap
 dev-util/valgrind
 mail-client/mutt
 net-im/mcabber
