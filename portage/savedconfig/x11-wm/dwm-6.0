@@ -63,7 +63,7 @@ static const Layout layouts[] = {
 
 /* commands */
 static const char *gmruncmd[] = { "gmrun", "-g", "+0+0", NULL };
-static const char *termcmd[]  = { "st", NULL };
+static const char *termcmd[]  = { "uxterm", "-fn", "-misc-fixed-medium-r-normal--15-140-75-75-c-90-iso10646-1", "-fb", "-misc-fixed-medium-r-semicondensed--12-110-75-75-c-60-iso10646-1", "+sb", "-bg", normbgcolor, "-fg", selfgcolor, "-cr", "white", "-bc", "-uc", NULL };
 static const char *scrotcmd[]  = { "scrot", "/tmp/%Y%m%d-%H%M%S.png", NULL };
 static const char *lockcmd[]  = { "sh", "-c", "$HOME/lock", NULL };
 
