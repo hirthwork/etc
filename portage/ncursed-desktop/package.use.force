@@ -22,7 +22,7 @@ sys-auth/consolekit pam
 sys-fs/udev gudev openrc
 virtual/udev gudev
 www-plugins/adobe-flash abi_x86_32
-x11-base/xorg-server kdrive xorg xvfb
+x11-base/xorg-server kdrive xorg
 x11-drivers/nvidia-drivers X tools
 x11-libs/cairo X glib
 x11-libs/gdk-pixbuf X
