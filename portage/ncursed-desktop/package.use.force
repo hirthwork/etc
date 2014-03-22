@@ -1,7 +1,7 @@
 app-emulation/wine gecko opengl custom-cflags
 app-office/abiword spell plugins grammar openxml thesaurus
 app-text/aiksaurus gtk
-app-text/poppler cairo cxx utils
+app-text/acroread html nsplugin
 dev-db/sqlite extensions
 dev-java/icedtea doc
 media-fonts/font-misc-misc nls X
