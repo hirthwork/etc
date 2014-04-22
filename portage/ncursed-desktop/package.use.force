@@ -14,7 +14,7 @@ media-libs/libcanberra gtk3
 media-libs/libpng apng
 media-libs/phonon gstreamer
 media-plugins/gst-plugins-meta ogg vorbis
-media-video/mplayer X sdl truetype
+media-video/mplayer X iconv sdl truetype
 net-analyzer/wireshark gtk3 pcap
 net-libs/webkit-gtk jit
 sys-apps/dbus X
