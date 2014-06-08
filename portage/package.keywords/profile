@@ -26,6 +26,7 @@ sys-devel/gcc **
 sys-devel/llvm
 virtual/jdk
 virtual/jre
+www-client/chromium
 x11-libs/cairo
 x11-misc/wmname
 x11-wm/dwm

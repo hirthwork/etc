@@ -13,6 +13,8 @@
 *dev-util/cgdb
 *dev-util/cscope
 *dev-util/ctags
+*dev-util/ltrace
+*dev-util/strace
 *mail-client/mutt
 *net-analyzer/netcat
 *net-analyzer/tcpdump
