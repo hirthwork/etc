@@ -2,6 +2,7 @@ app-emulation/wine gecko opengl custom-cflags
 app-office/abiword spell plugins grammar openxml thesaurus
 app-text/aiksaurus gtk
 app-text/acroread html nsplugin
+app-text/libwpd tools
 dev-db/sqlite extensions
 dev-java/icedtea doc
 dev-libs/libxml2 icu
