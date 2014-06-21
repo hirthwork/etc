@@ -9,10 +9,12 @@ dev-java/icedtea-web
 dev-libs/cloog
 dev-libs/cloog-ppl
 dev-libs/isl
+dev-libs/lzo
 dev-libs/ppl
 dev-util/systemtap
 dev-util/valgrind
 mail-client/mutt
+media-libs/freetype
 net-im/mcabber
 net-im/mcabber-commands
 net-im/mcabber-modules
@@ -27,6 +29,7 @@ sys-devel/llvm
 virtual/jdk
 virtual/jre
 www-client/chromium
+www-plugins/chrome-binary-plugins
 x11-libs/cairo
 x11-misc/wmname
 x11-wm/dwm
