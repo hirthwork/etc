@@ -6,7 +6,7 @@ dev-lang/python threads xml
 dev-libs/gmp cxx
 dev-libs/libxml2 python
 dev-vcs/git blksha1 curl perl
-dev-vcs/subversion webdav-neon
+dev-vcs/subversion http
 mail-client/mutt berkdb imap pop smime smtp
 net-im/mcabber aspell modules unordered-completion
 net-im/mcabber-modules extsayng
