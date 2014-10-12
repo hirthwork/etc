@@ -30,5 +30,6 @@ virtual/jre
 www-client/chromium
 www-plugins/chrome-binary-plugins
 x11-libs/cairo
+x11-misc/autocutsel
 x11-misc/wmname
 x11-wm/dwm
