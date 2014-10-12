@@ -9,6 +9,7 @@ dev-libs/cloog-ppl
 dev-libs/isl
 dev-libs/lzo
 dev-libs/ppl
+dev-libs/protobuf
 dev-util/systemtap
 dev-util/valgrind
 mail-client/mutt
