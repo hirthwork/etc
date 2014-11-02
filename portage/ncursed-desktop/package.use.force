@@ -17,7 +17,7 @@ media-libs/libpng apng
 media-libs/phonon gstreamer
 media-plugins/gst-plugins-meta ogg vorbis
 media-video/ffmpeg network openssl vdpau
-media-video/mpv X iconv vdpau
+media-video/mpv X iconv libass vdpau
 net-analyzer/wireshark gtk3 pcap
 net-libs/webkit-gtk jit
 sys-apps/dbus X
