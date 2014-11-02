@@ -12,6 +12,7 @@
 *media-gfx/gimp
 *media-gfx/scrot
 *media-libs/exiftool
+*media-video/mpv
 *net-analyzer/wireshark
 *net-im/skype
 *net-misc/x11-ssh-askpass

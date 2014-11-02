@@ -24,6 +24,8 @@ static char tags[][MAX_TAGLEN] = { "1:mail", "2:www", "3:tty","4:tty", "5:tty", 
 static const Rule rules[] = {
         /* class      instance    title       tags mask     isfloating   monitor */
         { "MPlayer",  NULL,       NULL,       0,            True,        -1 },
+        { "mpv",      NULL,       NULL,       0,            True,        -1 },
+        { "feh",      NULL,       NULL,       0,            True,        -1 },
         { "Skype",    NULL,       NULL,       1 << 0,       True,        -1 },
         { "Firefox",  NULL,       NULL,       1 << 1,       False,       -1 },
         { "Dia",      NULL,       NULL,       1 << 6,       True,        -1 },
@@ -33,7 +35,6 @@ static const Rule rules[] = {
         { "Evince",   NULL,       NULL,       1 << 8,       False,       -1 },
         { "Gnumeric", NULL,       NULL,       1 << 8,       False,       -1 },
         { "Xchm",     NULL,       NULL,       1 << 8,       False,       -1 },
-        { "feh",      NULL,       NULL,       0,            True,        -1 },
 };
 
 /* layout(s) */

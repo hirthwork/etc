@@ -16,7 +16,8 @@ media-libs/libcanberra gtk3
 media-libs/libpng apng
 media-libs/phonon gstreamer
 media-plugins/gst-plugins-meta ogg vorbis
-media-video/mplayer X faad iconv vdpau
+media-video/ffmpeg network openssl vdpau
+media-video/mpv X iconv vdpau
 net-analyzer/wireshark gtk3 pcap
 net-libs/webkit-gtk jit
 sys-apps/dbus X

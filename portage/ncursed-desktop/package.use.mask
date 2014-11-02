@@ -1,3 +1,4 @@
+media-video/mpv lcms
 net-analyzer/wireshark ssl
 x11-base/xorg-server minimal
 www-plugins/adobe-flash abi_x86_64
