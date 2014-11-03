@@ -11,6 +11,7 @@ mail-client/mutt berkdb imap pop smime smtp
 net-im/mcabber aspell modules unordered-completion
 net-im/mcabber-modules extsayng
 net-irc/irssi perl
+net-misc/openvpn lzo
 sys-apps/busybox pam
 sys-apps/dstat wifi
 sys-apps/kmod tools
