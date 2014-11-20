@@ -3,6 +3,7 @@
 *app-editors/hexedit
 *app-editors/vim
 *app-i18n/enca
+*app-misc/jq
 *app-misc/rlwrap
 *app-misc/screen
 *app-portage/gentoolkit
