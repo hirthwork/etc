@@ -7,6 +7,7 @@ app-text/poppler cxx
 dev-db/sqlite extensions
 dev-java/icedtea doc
 dev-libs/libxml2 icu
+dev-qt/qtsql sqlite
 media-fonts/font-misc-misc nls X
 media-fonts/liberation-fonts X
 media-gfx/feh curl

@@ -1,3 +1,4 @@
+media-libs/libsndfile minimal
 media-video/mpv lcms
 net-analyzer/wireshark ssl
 x11-base/xorg-server minimal
