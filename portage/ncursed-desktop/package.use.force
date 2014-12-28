@@ -27,7 +27,6 @@ sys-fs/udev gudev openrc
 sys-libs/zlib minizip
 virtual/udev gudev
 www-plugins/adobe-flash abi_x86_32
-www-plugins/chrome-binary-plugins flash
 x11-base/xorg-server xorg
 x11-drivers/nvidia-drivers X tools
 x11-libs/cairo X glib

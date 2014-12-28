@@ -27,8 +27,6 @@ sys-devel/gcc **
 sys-devel/llvm
 virtual/jdk
 virtual/jre
-www-client/chromium
-www-plugins/chrome-binary-plugins
 x11-libs/cairo
 x11-misc/autocutsel
 x11-misc/wmname
