@@ -16,10 +16,13 @@ media-libs/imlib2 X
 media-libs/libcanberra gtk3
 media-libs/libpng apng
 media-libs/phonon gstreamer
+media-plugins/alsa-plugins pulseaudio speex
 media-plugins/gst-plugins-meta ogg vorbis
+media-sound/pulseaudio caps
 media-video/ffmpeg network openssl vdpau
 media-video/mpv X iconv libass vdpau
 net-analyzer/wireshark gtk3 pcap
+net-im/skype pulseaudio
 net-libs/webkit-gtk jit
 sys-apps/dbus X
 sys-auth/consolekit pam
