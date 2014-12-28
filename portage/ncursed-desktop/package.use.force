@@ -19,6 +19,7 @@ media-libs/libpng apng
 media-libs/phonon gstreamer
 media-plugins/alsa-plugins pulseaudio speex
 media-plugins/gst-plugins-meta ogg vorbis
+media-sound/mumble pulseaudio
 media-sound/pulseaudio caps
 media-video/ffmpeg network openssl vdpau
 media-video/mpv X iconv libass vdpau
