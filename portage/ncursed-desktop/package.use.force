@@ -22,7 +22,7 @@ media-plugins/gst-plugins-meta ogg vorbis
 media-sound/mumble pulseaudio
 media-sound/pulseaudio caps
 media-video/ffmpeg network openssl vdpau
-media-video/mpv X iconv libass vdpau
+media-video/mpv X cli iconv libass vdpau
 net-analyzer/wireshark gtk3 pcap
 net-im/skype pulseaudio
 net-libs/webkit-gtk jit

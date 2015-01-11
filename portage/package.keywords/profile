@@ -14,6 +14,8 @@ dev-util/systemtap
 dev-util/valgrind
 mail-client/mutt
 media-libs/freetype
+media-video/ffmpeg
+media-video/mpv
 net-im/mcabber
 net-im/mcabber-commands
 net-im/mcabber-modules
