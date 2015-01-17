@@ -12,9 +12,6 @@
 *app-shells/zsh
 *dev-perl/Text-Aspell
 *dev-util/cgdb
-*dev-util/cscope
-*dev-util/ctags
-*dev-util/ltrace
 *dev-util/strace
 *mail-client/mutt
 *net-analyzer/netcat
