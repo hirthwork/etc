@@ -38,3 +38,4 @@ x11-libs/cairo X glib
 x11-libs/gdk-pixbuf X
 x11-libs/gtk+ X
 x11-libs/pango X
+x11-libs/wxGTK X
