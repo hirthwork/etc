@@ -1,3 +1,4 @@
 app-editors/vim minimal
 app-editors/vim-core minimal
 net-im/mcabber spell
+net-misc/dropbear minimal
