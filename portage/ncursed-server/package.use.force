@@ -19,5 +19,5 @@ sys-apps/dstat wifi
 sys-apps/kmod tools
 sys-apps/openrc netifrc
 sys-devel/clang multitarget static-analyzer
-sys-devel/gcc cxx graphite mudflap openmp lto
+sys-devel/gcc cxx graphite
 sys-devel/llvm clang multitarget static-analyzer
