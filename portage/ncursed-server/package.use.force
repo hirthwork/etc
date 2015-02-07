@@ -6,6 +6,7 @@ dev-lang/python threads xml
 dev-libs/gmp cxx
 dev-libs/libevent threads
 dev-libs/libxml2 python
+dev-libs/nettle gmp
 dev-vcs/git blksha1 curl perl
 dev-vcs/subversion http
 mail-client/mutt berkdb imap pop smime smtp
