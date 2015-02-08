@@ -6,6 +6,7 @@ app-text/libwpd tools
 app-text/poppler cxx
 dev-db/sqlite extensions
 dev-java/icedtea doc
+dev-lang/python sqlite
 dev-libs/libxml2 icu
 dev-qt/qtsql sqlite
 media-fonts/font-misc-misc nls X
