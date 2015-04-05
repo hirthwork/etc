@@ -11,6 +11,7 @@ dev-libs/glib dbus
 dev-libs/libxml2 icu
 dev-qt/qtgui accessibility
 dev-qt/qtsql sqlite
+dev-qt/qtsvg accessibility
 media-fonts/font-misc-misc nls X
 media-fonts/liberation-fonts X
 media-gfx/feh curl
