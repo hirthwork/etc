@@ -6,8 +6,8 @@
 *app-text/acroread
 *app-text/evince
 *app-text/xchm
+*media-fonts/corefonts
 *media-fonts/font-misc-misc
-*media-fonts/liberation-fonts
 *media-gfx/feh
 *media-gfx/gimp
 *media-gfx/scrot
@@ -32,4 +32,3 @@
 *x11-misc/xsel
 *x11-terms/xterm
 *x11-wm/dwm
-*x11-wm/twm
