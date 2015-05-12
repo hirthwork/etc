@@ -1,10 +1,1 @@
-dev-qt/qtchooser
-dev-qt/qtcore
-dev-qt/qtdbus
-dev-qt/qtgui
-dev-qt/qtscript
-dev-qt/qtsvg
-dev-qt/qttranslations
-dev-qt/qtwebkit
-dev-qt/qtxmlpatterns
 media-sound/apulse
