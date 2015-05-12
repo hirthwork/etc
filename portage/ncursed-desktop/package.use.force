@@ -27,7 +27,6 @@ media-video/ffmpeg gpl network openssl vdpau
 media-video/mpv X cli iconv libass lua vdpau
 net-analyzer/wireshark gtk3 pcap
 net-libs/webkit-gtk jit
-sys-apps/dbus X
 sys-auth/consolekit pam
 sys-fs/udev gudev
 sys-libs/zlib minizip
