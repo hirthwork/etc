@@ -23,7 +23,7 @@ media-libs/libpng apng
 media-libs/mesa egl gbm
 media-libs/phonon gstreamer
 media-plugins/gst-plugins-meta ogg vorbis
-media-video/ffmpeg gpl network openssl vdpau vpx
+media-video/ffmpeg gpl network openssl sdl vdpau vpx
 media-video/mpv X cli iconv libass libcaca lua vdpau
 net-analyzer/wireshark gtk3 pcap
 net-libs/webkit-gtk jit
