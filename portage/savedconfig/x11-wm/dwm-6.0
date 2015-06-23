@@ -16,25 +16,27 @@ static const Bool showbar           = True;     /* False means no bar */
 static const Bool topbar            = True;     /* False means bottom bar */
 static const Bool showsystray       = True;
 static const int systrayspacing     = 0;
+static const double shade           = .75;      /* opacity of unfocussed clients */
 
 /* tagging */
 #define MAX_TAGLEN 256
 static char tags[][MAX_TAGLEN] = { "1:mail", "2:www", "3:tty","4:tty", "5:tty", "6:draw", "7:doc", "8:telegram", "9:skype" };
 
 static const Rule rules[] = {
-        /* class      instance    title       tags mask     isfloating   monitor */
-        { "mpv",      NULL,       NULL,       0,            True,        -1 },
-        { "feh",      NULL,       NULL,       0,            True,        -1 },
-        { "Firefox",  NULL,       NULL,       1 << 1,       False,       -1 },
-        { "Dia",      NULL,       NULL,       1 << 5,       True,        -1 },
-        { "Gimp",     NULL,       NULL,       1 << 5,       True,        -1 },
-        { "Abiword",  NULL,       NULL,       1 << 6,       False,       -1 },
-        { "Acroread", NULL,       NULL,       1 << 6,       False,       -1 },
-        { "Evince",   NULL,       NULL,       1 << 6,       False,       -1 },
-        { "Gnumeric", NULL,       NULL,       1 << 6,       False,       -1 },
-        { "Xchm",     NULL,       NULL,       1 << 6,       False,       -1 },
-        { "Telegram", NULL,       NULL,       1 << 7,       False,       -1 },
-        { "Skype",    NULL,       NULL,       1 << 8,       False,       -1 },
+        /* class      instance    title       tags mask     isfloating   monitor    opacity */
+        { "mpv",      NULL,       NULL,       0,            True,        -1,        -1 },
+        { "feh",      NULL,       NULL,       0,            True,        -1,        -1 },
+        { "UXTerm",   NULL,       NULL,       0,            False,       -1,        .9 },
+        { "Firefox",  NULL,       NULL,       1 << 1,       False,       -1,        -1 },
+        { "Dia",      NULL,       NULL,       1 << 5,       True,        -1,        -1 },
+        { "Gimp",     NULL,       NULL,       1 << 5,       True,        -1,        -1 },
+        { "Abiword",  NULL,       NULL,       1 << 6,       False,       -1,        -1 },
+        { "Acroread", NULL,       NULL,       1 << 6,       False,       -1,        -1 },
+        { "Evince",   NULL,       NULL,       1 << 6,       False,       -1,        -1 },
+        { "Gnumeric", NULL,       NULL,       1 << 6,       False,       -1,        -1 },
+        { "Xchm",     NULL,       NULL,       1 << 6,       False,       -1,        -1 },
+        { "Telegram", NULL,       NULL,       1 << 7,       False,       -1,        -1 },
+        { "Skype",    NULL,       NULL,       1 << 8,       False,       -1,        -1 },
 };
 
 /* layout(s) */
