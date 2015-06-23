@@ -19,6 +19,7 @@
 *net-analyzer/tcpdump
 *net-analyzer/tcpflow
 *net-analyzer/traceroute
+*net-dns/openresolv
 *net-im/mcabber
 *net-im/mcabber-commands
 *net-im/mcabber-modules
