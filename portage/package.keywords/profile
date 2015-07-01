@@ -31,7 +31,7 @@ sys-devel/gcc **
 sys-devel/llvm
 virtual/jdk
 virtual/jre
-www-clients/firefox
+www-client/firefox
 x11-libs/cairo
 x11-misc/autocutsel
 x11-misc/wmname
