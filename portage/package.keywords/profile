@@ -24,6 +24,7 @@ net-im/mcabber-mucignore
 net-im/skype
 net-im/telegram-bin
 net-libs/libtorrent
+dev-libs/nss
 net-mail/offlineimap
 net-p2p/rtorrent
 sys-devel/clang
