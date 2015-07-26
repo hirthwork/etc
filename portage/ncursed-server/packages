@@ -39,6 +39,7 @@
 *sys-apps/dstat
 *sys-apps/kmod
 *sys-apps/mlocate
+*sys-fs/ncdu
 *sys-process/htop
 *sys-process/iotop
 *sys-process/lsof
