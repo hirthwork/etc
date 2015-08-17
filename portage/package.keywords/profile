@@ -15,6 +15,7 @@ dev-util/valgrind
 mail-client/mutt
 media-libs/freetype
 media-libs/libass
+media-libs/libpng
 media-video/ffmpeg
 media-video/mpv
 net-im/mcabber
