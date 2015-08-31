@@ -21,4 +21,5 @@ sys-apps/kmod tools
 sys-apps/openrc netifrc
 sys-devel/clang multitarget static-analyzer
 sys-devel/gcc cxx graphite
+sys-devel/gdb client server
 sys-devel/llvm clang multitarget static-analyzer
