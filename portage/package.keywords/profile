@@ -23,7 +23,7 @@ net-im/mcabber-commands
 net-im/mcabber-modules
 net-im/mcabber-mucignore
 net-im/skype
-net-im/telegram-bin
+net-im/telegram-desktop-bin
 net-libs/libtorrent
 dev-libs/nss
 net-mail/offlineimap
