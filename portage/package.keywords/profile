@@ -34,7 +34,6 @@ sys-devel/llvm
 virtual/jdk
 virtual/jre
 www-client/firefox
-x11-libs/cairo
 x11-misc/autocutsel
 x11-misc/wmname
 x11-wm/dwm
