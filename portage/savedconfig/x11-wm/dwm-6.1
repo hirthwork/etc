@@ -1,7 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-#define FONT "fixed:size=12:style=bold"
+#define FONT "fixed:size=12"
 #define NORMBGCOLOR "#444444"
 #define NORMFGCOLOR "#888888"
 #define SELFGCOLOR "#cccccc"
@@ -27,7 +27,7 @@ static const double shade           = 0.75;     /* opacity of unfocussed clients
 
 /* tagging */
 #define MAX_TAGLEN 256
-static char tags[][MAX_TAGLEN] = { "1:✉", "2:🌎", "3:🖳","4:🖳", "5:🖳", "6:🖌", "7:🗎", "8:⎁", "9:☎" };
+static char tags[][MAX_TAGLEN] = { "1✉", "2🌎", "3🖳","4🖳", "5🖳", "6🖌", "7🗎", "8⎁", "9☎" };
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -133,13 +133,13 @@ static Button buttons[] = {
 };
 
 void nametag(const Arg *arg) {
-        char *cp, name[MAX_TAGLEN - 2];
+        char *cp, name[MAX_TAGLEN - 1];
         FILE *fp;
         int i;
 
         if(!(fp = popen("echo -n | dmenu -fn '" FONT "' -nb '" NORMBGCOLOR "' -nf '" NORMFGCOLOR "' -sb '" NORMBGCOLOR "' -sf '" SELFGCOLOR "'", "r")))
                 fprintf(stderr, "dwm: Could not popen 'echo -n | dmenu'\n");
-        cp = fgets(name, MAX_TAGLEN - 2, fp);
+        cp = fgets(name, MAX_TAGLEN - 1, fp);
         pclose(fp);
         if(cp == NULL)
                 return;
@@ -151,7 +151,7 @@ void nametag(const Arg *arg) {
         for(i = 0; i < LENGTH(tags); i++)
                 if(selmon->tagset[selmon->seltags] & (1 << i))
                 {
-                        strcpy(tags[i] + 2, name);
+                        strcpy(tags[i] + 1, name);
                 }
         drawbars();
 }
