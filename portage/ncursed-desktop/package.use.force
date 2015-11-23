@@ -27,7 +27,6 @@ media-plugins/gst-plugins-meta ogg vorbis
 media-video/ffmpeg gpl network openssl sdl vdpau vpx zlib
 media-video/mpv X cli iconv libass libcaca lua vdpau xv
 net-analyzer/wireshark gtk3 pcap
-net-im/skype apulse
 net-libs/webkit-gtk jit
 sys-auth/consolekit pam
 sys-fs/udev gudev
