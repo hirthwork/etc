@@ -21,7 +21,7 @@ media-libs/imlib2 X
 media-libs/libcanberra gtk3
 media-libs/libpng apng
 media-libs/libsdl sound video
-media-libs/mesa egl gbm
+media-libs/mesa classic egl gbm
 media-libs/phonon gstreamer
 media-plugins/gst-plugins-meta ogg vorbis
 media-video/ffmpeg gpl network openssl sdl vdpau vpx zlib
