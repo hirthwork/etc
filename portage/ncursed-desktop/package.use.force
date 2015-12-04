@@ -4,6 +4,7 @@ app-text/aiksaurus gtk
 app-text/acroread html nsplugin
 app-text/libwpd tools
 app-text/poppler cxx
+app-text/xmlto text
 dev-db/sqlite extensions
 dev-java/icedtea doc
 dev-lang/python sqlite
