@@ -3,6 +3,7 @@ dev-libs/isl
 mail-client/mutt
 media-sound/apulse
 media-video/ffmpeg
+media-video/mpv
 net-im/mcabber
 net-im/mcabber-commands
 net-im/mcabber-modules
