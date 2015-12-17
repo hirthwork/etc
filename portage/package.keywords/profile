@@ -12,7 +12,7 @@ net-im/skype
 net-im/telegram-desktop-bin
 net-mail/offlineimap
 sys-devel/clang
-sys-devel/gcc **
+sys-devel/gcc
 sys-devel/llvm
 virtual/jdk
 virtual/jre
