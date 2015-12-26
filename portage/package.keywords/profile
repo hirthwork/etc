@@ -10,6 +10,7 @@ net-im/mcabber-modules
 net-im/mcabber-mucignore
 net-im/skype
 net-im/telegram-desktop-bin
+net-libs/webkit-gtk
 net-mail/offlineimap
 net-misc/youtube-dl
 sys-devel/clang
@@ -17,4 +18,5 @@ sys-devel/gcc
 sys-devel/llvm
 virtual/jdk
 virtual/jre
+www-client/midori
 x11-wm/dwm
