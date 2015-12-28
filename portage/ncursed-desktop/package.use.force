@@ -20,6 +20,7 @@ media-gfx/feh curl
 media-libs/gd zlib truetype
 media-libs/harfbuzz glib truetype
 media-libs/imlib2 X
+media-libs/libass harfbuzz
 media-libs/libcanberra gtk3
 media-libs/libpng apng
 media-libs/libsdl sound video
