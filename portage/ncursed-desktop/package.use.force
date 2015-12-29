@@ -29,14 +29,13 @@ media-libs/phonon gstreamer
 media-plugins/gst-plugins-meta ogg vorbis
 media-video/ffmpeg gpl network openssl sdl vdpau vpx zlib
 media-video/mpv X cli iconv libass libcaca lua vdpau xv
-net-libs/webkit-gtk jit nsplugin opengl webgl
 net-analyzer/wireshark gtk3 pcap
 sys-auth/consolekit pam
 sys-libs/zlib minizip
-www-client/midori jit webkit2
+www-client/midori webkit2
 x11-base/xorg-server xorg
 x11-drivers/nvidia-drivers X tools
-x11-libs/cairo X glib opengl
+x11-libs/cairo X glib
 x11-libs/gdk-pixbuf X
 x11-libs/gtk+ X
 x11-libs/pango X
