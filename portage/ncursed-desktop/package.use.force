@@ -31,7 +31,6 @@ media-video/mpv X cli iconv libass libcaca lua vdpau xv
 net-analyzer/wireshark gtk3 pcap
 sys-auth/consolekit pam
 sys-libs/zlib minizip
-www-client/chromium custom-cflags tcmalloc
 x11-base/xorg-server xorg
 x11-drivers/nvidia-drivers X tools
 x11-libs/cairo X glib
