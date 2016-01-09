@@ -1,6 +1,5 @@
 dev-libs/cloog
 dev-libs/isl
-dev-libs/nspr
 mail-client/mutt
 media-sound/apulse
 media-video/ffmpeg
@@ -18,5 +17,4 @@ sys-devel/gcc
 sys-devel/llvm
 virtual/jdk
 virtual/jre
-www-client/firefox
 x11-wm/dwm
