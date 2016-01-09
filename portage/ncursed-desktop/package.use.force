@@ -1,6 +1,5 @@
 app-emulation/wine gecko opengl custom-cflags
 app-office/abiword spell plugins grammar openxml thesaurus
-app-text/aiksaurus gtk
 app-text/acroread html nsplugin
 app-text/libwpd tools
 app-text/poppler cxx
@@ -20,7 +19,6 @@ media-libs/gd zlib truetype
 media-libs/harfbuzz glib truetype
 media-libs/imlib2 X
 media-libs/libass harfbuzz
-media-libs/libcanberra gtk3
 media-libs/libpng apng
 media-libs/libsdl sound video
 media-libs/libvpx postproc
@@ -32,7 +30,7 @@ media-video/mpv X cli iconv libass libcaca lua vdpau xv
 net-analyzer/wireshark gtk3 pcap
 sys-auth/consolekit pam
 sys-libs/zlib minizip
-www-client/firefox custom-cflags custom-optimization gtk3 jit system-cairo system-icu system-jpeg system-libvpx system-sqlite
+www-client/firefox custom-cflags jit system-cairo system-icu system-jpeg system-libvpx system-sqlite
 x11-base/xorg-server xorg
 x11-drivers/nvidia-drivers X tools
 x11-libs/cairo X glib
