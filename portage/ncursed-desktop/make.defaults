@@ -1,4 +1,4 @@
-USE="${USE} ipv6 djvu fontconfig ssse3 threads"
+USE="${USE} ipv6 djvu fontconfig ssse3"
 INPUT_DEVICES="${INPUT_DEVICES} evdev keyboard mouse"
 FEATURES="${FEATURES}"
 LINGUAS="${LINGUAS} en ru ru_RU la de"
