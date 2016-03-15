@@ -20,7 +20,7 @@
 *net-im/telegram-desktop-bin
 *net-misc/youtube-dl
 *net-misc/x11-ssh-askpass
-*sys-fs/sshfs-fuse
+*sys-fs/sshfs
 *www-client/firefox
 *www-plugins/adobe-flash
 *x11-apps/setxkbmap
