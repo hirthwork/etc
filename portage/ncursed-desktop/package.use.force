@@ -1,6 +1,7 @@
 app-emulation/wine gecko opengl custom-cflags
 app-office/abiword spell plugins grammar openxml thesaurus
 app-text/acroread html nsplugin
+app-text/aiksaurus gtk
 app-text/libwpd tools
 app-text/poppler cxx
 app-text/xmlto text
