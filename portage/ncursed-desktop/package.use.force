@@ -3,7 +3,6 @@ app-office/abiword spell plugins grammar openxml thesaurus
 app-text/acroread html nsplugin
 app-text/aiksaurus gtk
 app-text/libwpd tools
-app-text/poppler cxx
 app-text/xmlto text
 dev-db/sqlite secure-delete
 dev-java/icedtea doc
