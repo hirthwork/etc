@@ -6,7 +6,7 @@
 *app-misc/jq
 *app-misc/rlwrap
 *app-misc/screen
-*app-portage/cpuinfo2cpuflags
+*app-portage/cpuid2cpuflags
 *app-portage/genlop
 *app-portage/gentoolkit
 *app-portage/layman
