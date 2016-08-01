@@ -17,4 +17,5 @@ sys-devel/gcc **
 sys-devel/llvm
 virtual/jdk
 virtual/jre
+www-client/palemoon
 x11-wm/dwm

@@ -30,7 +30,7 @@ media-video/mpv X cli iconv libass libcaca lua vdpau xv
 net-analyzer/wireshark gtk3 pcap
 sys-auth/consolekit pam
 sys-libs/zlib minizip
-www-client/firefox custom-cflags custom-optimization dbus ffmpeg jemalloc3 jit gtk3 hwaccel system-cairo system-icu system-jpeg system-libvpx system-sqlite
+www-client/palemoon gtk2 optimize shared-js system-libs
 x11-base/xorg-server xorg
 x11-drivers/nvidia-drivers X tools
 x11-libs/cairo X glib
