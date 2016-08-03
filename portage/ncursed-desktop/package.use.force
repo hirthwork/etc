@@ -6,7 +6,6 @@ app-text/libwpd tools
 app-text/xmlto text
 dev-db/sqlite secure-delete
 dev-java/icedtea doc
-dev-lang/python sqlite
 dev-libs/glib dbus
 dev-libs/libxml2 icu
 dev-qt/qtgui accessibility
