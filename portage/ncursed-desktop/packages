@@ -11,6 +11,7 @@
 *media-fonts/symbola
 *media-gfx/feh
 *media-gfx/gimp
+*media-gfx/imagemagick
 *media-gfx/scrot
 *media-libs/exiftool
 *media-sound/alsa-utils
