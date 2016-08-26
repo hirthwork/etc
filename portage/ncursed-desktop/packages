@@ -17,11 +17,11 @@
 *media-sound/alsa-utils
 *media-video/mpv
 *net-analyzer/wireshark
+*net-fs/sshfs
 *net-im/skype
 *net-im/telegram-bin
 *net-misc/youtube-dl
 *net-misc/x11-ssh-askpass
-*sys-fs/sshfs
 *www-client/palemoon
 *www-plugins/adobe-flash
 *x11-apps/setxkbmap
