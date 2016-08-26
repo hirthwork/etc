@@ -29,7 +29,7 @@ media-video/mpv X cli iconv libass libcaca lua vdpau xv
 net-analyzer/wireshark gtk3 pcap
 sys-auth/consolekit pam
 sys-libs/zlib minizip
-www-client/palemoon gtk2 optimize shared-js system-libs
+www-client/palemoon gtk3 jemalloc optimize shared-js system-libs
 x11-base/xorg-server xorg
 x11-drivers/nvidia-drivers X tools
 x11-libs/cairo X glib
