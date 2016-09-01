@@ -11,7 +11,7 @@ net-im/mcabber-commands
 net-im/mcabber-modules
 net-im/mcabber-mucignore
 net-im/skype
-net-im/telegram-bin
+net-im/telegram-desktop-bin
 net-mail/offlineimap
 sys-devel/clang
 sys-devel/gcc **
