@@ -10,7 +10,7 @@ dev-libs/libxml2 python
 dev-libs/nettle gmp
 dev-vcs/git blksha1 curl perl
 dev-vcs/subversion http
-mail-client/mutt berkdb imap pop smime smtp
+mail-client/mutt berkdb imap nntp pop smime smtp
 net-analyzer/tcpflow pcap
 net-im/mcabber aspell modules unordered-completion
 net-im/mcabber-modules extsayng
