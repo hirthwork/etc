@@ -23,4 +23,4 @@ sys-apps/openrc netifrc
 sys-devel/clang multitarget static-analyzer
 sys-devel/gcc cxx graphite
 sys-devel/gdb client server
-sys-devel/llvm clang lldb multitarget static-analyzer
+sys-devel/llvm clang lldb multitarget static-analyzer xml
