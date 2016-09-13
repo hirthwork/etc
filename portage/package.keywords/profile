@@ -1,5 +1,6 @@
 dev-db/sqlite
 dev-java/icedtea
+dev-lang/spidermonkey
 dev-libs/cloog
 dev-libs/isl
 mail-client/mutt
