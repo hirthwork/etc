@@ -1,8 +1,10 @@
+app-text/libetonyek
 dev-db/sqlite
 dev-java/icedtea
 dev-lang/spidermonkey
 dev-libs/cloog
 dev-libs/isl
+dev-util/mdds
 mail-client/mutt
 media-sound/apulse
 media-video/ffmpeg
