@@ -9,9 +9,6 @@ dev-cpp/cairomm X
 dev-java/icedtea doc
 dev-libs/glib dbus
 dev-libs/libxml2 icu
-dev-qt/qtgui accessibility
-dev-qt/qtsql sqlite
-dev-qt/qtsvg accessibility
 media-fonts/corefonts X
 media-fonts/font-misc-misc nls X
 media-gfx/feh curl
