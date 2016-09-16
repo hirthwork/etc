@@ -27,5 +27,6 @@ sys-devel/llvm
 virtual/jdk
 virtual/jre
 www-client/palemoon
+www-client/w3m
 www-client/yandex-browser-beta
 x11-wm/dwm
