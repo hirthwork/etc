@@ -3,8 +3,8 @@
 *app-office/dia
 *app-office/gnumeric
 *app-office/libreoffice
-*app-text/acroread
 *app-text/evince
+*app-text/mupdf
 *media-fonts/corefonts
 *media-fonts/dejavu
 *media-fonts/symbola
@@ -24,9 +24,7 @@
 *net-misc/x11-ssh-askpass
 *www-client/palemoon
 *www-client/yandex-browser-beta
-*www-plugins/adobe-flash
 *x11-apps/setxkbmap
-*x11-apps/xmodmap
 *x11-apps/xsetroot
 *x11-base/xorg-server
 *x11-libs/xosd
