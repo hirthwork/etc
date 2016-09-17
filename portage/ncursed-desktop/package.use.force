@@ -18,13 +18,12 @@ media-libs/harfbuzz glib truetype
 media-libs/imlib2 X
 media-libs/libass harfbuzz
 media-libs/libpng apng
-media-libs/libsdl sound video
 media-libs/libvpx postproc
 media-libs/mesa classic egl gbm
 media-libs/phonon gstreamer
 media-plugins/gst-plugins-meta ogg vorbis
-media-video/ffmpeg gpl network openssl sdl vdpau vpx zlib
-media-video/mpv X cli iconv libass libcaca lua vdpau xv
+media-video/ffmpeg gpl network openssl vpx zlib
+media-video/mpv X cli iconv libass libcaca lua
 net-analyzer/wireshark gtk3 pcap
 sys-auth/consolekit pam
 sys-libs/zlib minizip
