@@ -20,7 +20,8 @@ sys-apps/busybox pam
 sys-apps/dstat wifi
 sys-apps/kmod tools
 sys-apps/openrc netifrc
+sys-devel/binutils cxx
 sys-devel/clang multitarget static-analyzer
 sys-devel/gcc cxx graphite
 sys-devel/gdb client python server
-sys-devel/llvm clang lldb multitarget static-analyzer xml
+sys-devel/llvm clang gold lldb multitarget static-analyzer xml
