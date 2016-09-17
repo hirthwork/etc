@@ -8,6 +8,7 @@ dev-lang/spidermonkey
 dev-libs/cloog
 dev-libs/isl
 dev-util/mdds
+dev-util/valgrind
 mail-client/mutt
 media-sound/apulse
 media-video/ffmpeg

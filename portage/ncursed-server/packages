@@ -14,6 +14,7 @@
 *app-shells/zsh
 *dev-perl/Text-Aspell
 *dev-util/strace
+*dev-util/valgrind
 *mail-client/mutt
 *net-analyzer/netcat
 *net-analyzer/tcpdump
