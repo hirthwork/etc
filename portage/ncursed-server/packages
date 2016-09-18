@@ -13,6 +13,7 @@
 *app-portage/portage-utils
 *app-shells/zsh
 *dev-perl/Text-Aspell
+*dev-util/debugedit
 *dev-util/strace
 *dev-util/valgrind
 *mail-client/mutt
