@@ -19,6 +19,7 @@ net-misc/openvpn lzo passwordsave
 sys-apps/busybox pam
 sys-apps/dstat wifi
 sys-apps/kmod tools
+sys-apps/net-tools hostname
 sys-apps/openrc netifrc
 sys-devel/binutils cxx
 sys-devel/clang multitarget static-analyzer
