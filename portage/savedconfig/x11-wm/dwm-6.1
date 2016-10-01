@@ -26,7 +26,7 @@ static const int topbar             = 1;        /* 0 means bottom bar */
 static const double shade           = 0.75;     /* opacity of unfocussed clients */
 
 /* tagging */
-#define MAX_TAGLEN 256
+#define MAX_TAGLEN 16
 static char tags[][MAX_TAGLEN] = { "1✉", "2🌎", "3🖳","4🖳", "5🖳", "6🖳", "7🖌", "8🗎", "9⎁" };
 
 static const Rule rules[] = {
@@ -45,7 +45,7 @@ static const Rule rules[] = {
         { "MuPDF",    NULL,       NULL,       1 << 7,       False,       -1,        -1 },
         { "Evince",   NULL,       NULL,       1 << 7,       False,       -1,        -1 },
         { "Gnumeric", NULL,       NULL,       1 << 7,       False,       -1,        -1 },
-        { "telegram-desktop",NULL,NULL,       1 << 8,       False,       -1,        -1 },
+        { "Telegram", NULL,       NULL,       1 << 8,       False,       -1,        -1 },
 };
 
 /* layout(s) */
