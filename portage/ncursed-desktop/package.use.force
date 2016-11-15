@@ -24,7 +24,7 @@ media-libs/phonon gstreamer
 media-plugins/gst-plugins-meta ogg vorbis
 media-video/ffmpeg gpl network openssl vpx zlib
 media-video/mpv X cli iconv libass libcaca lua
-net-analyzer/wireshark gtk3 pcap
+net-analyzer/wireshark gtk pcap
 sys-auth/consolekit pam
 sys-libs/zlib minizip
 www-client/palemoon gtk3 jemalloc optimize shared-js system-libs
