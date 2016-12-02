@@ -2,7 +2,6 @@ app-text/djvu
 app-text/libetonyek
 app-text/libmwaw
 dev-cpp/clucene
-dev-db/sqlite
 dev-java/icedtea
 dev-lang/spidermonkey
 dev-libs/cloog
