@@ -1,20 +1,20 @@
 --- a/arch/x86/kernel/cpu/mtrr/main.c
 +++ b/arch/x86/kernel/cpu/mtrr/main.c
-@@ -449,8 +449,6 @@
+@@ -449,6 +449,8 @@
  			     increment);
  }
 
--EXPORT_SYMBOL(mtrr_add);
--
++EXPORT_SYMBOL(mtrr_add);
++
  /**
   * mtrr_del_page - delete a memory type region
   * @reg: Register returned by mtrr_add
-@@ -539,8 +537,6 @@
+@@ -537,6 +539,8 @@
  	return mtrr_del_page(reg, base >> PAGE_SHIFT, size >> PAGE_SHIFT);
  }
 
--EXPORT_SYMBOL(mtrr_del);
--
++EXPORT_SYMBOL(mtrr_del);
++
  /**
   * arch_phys_wc_add - add a WC MTRR and handle errors if PAT is unavailable
   * @base: Physical base address
