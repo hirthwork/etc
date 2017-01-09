@@ -26,7 +26,7 @@ media-video/mpv X cli iconv libass libcaca lua
 net-analyzer/wireshark gtk pcap
 sys-auth/consolekit pam
 sys-libs/zlib minizip
-www-client/palemoon gtk3 jemalloc optimize shared-js system-libs
+www-client/palemoon gtk2 jemalloc optimize shared-js system-libs
 www-client/phantomjs examples
 x11-base/xorg-server xorg
 x11-libs/cairo X glib
