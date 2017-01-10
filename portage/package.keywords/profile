@@ -6,7 +6,6 @@ dev-java/icedtea
 dev-lang/spidermonkey
 dev-libs/cloog
 dev-libs/isl
-dev-libs/nspr
 dev-util/cmake
 dev-util/mdds
 dev-util/valgrind
