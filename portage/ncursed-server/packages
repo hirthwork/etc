@@ -1,7 +1,9 @@
 *app-arch/p7zip
 *app-arch/unzip
+*app-editors/emacs
 *app-editors/hexedit
 *app-editors/vim
+*app-emacs/emacs-jabber
 *app-i18n/enca
 *app-misc/jq
 *app-misc/rlwrap
