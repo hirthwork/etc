@@ -15,7 +15,7 @@ net-analyzer/tcpflow pcap
 net-im/mcabber aspell modules unordered-completion
 net-im/mcabber-modules extsayng
 net-irc/irssi perl
-net-misc/openvpn iproute2
+net-misc/openvpn lzo passwordsave
 sys-apps/busybox pam
 sys-apps/dstat wifi
 sys-apps/kmod tools
