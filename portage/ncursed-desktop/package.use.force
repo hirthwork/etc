@@ -19,7 +19,7 @@ media-libs/libass harfbuzz
 media-libs/libepoxy X
 media-libs/libpng apng
 media-libs/libvpx postproc
-media-libs/mesa classic egl gbm
+media-libs/mesa classic egl gbm openssl
 media-libs/phonon gstreamer
 media-plugins/gst-plugins-meta ogg vorbis
 media-video/ffmpeg gpl network openssl vpx zlib
