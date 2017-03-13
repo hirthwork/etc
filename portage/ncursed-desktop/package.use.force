@@ -16,6 +16,7 @@ media-libs/gd zlib truetype
 media-libs/harfbuzz glib truetype
 media-libs/imlib2 X
 media-libs/libass harfbuzz
+media-libs/libepoxy X
 media-libs/libpng apng
 media-libs/libvpx postproc
 media-libs/mesa classic egl gbm
