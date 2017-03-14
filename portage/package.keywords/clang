@@ -1,0 +1,9 @@
+app-vim/llvm-vim
+sys-devel/clang
+sys-devel/clang-runtime
+sys-devel/llvm
+sys-devel/llvmgold
+sys-libs/compiler-rt
+sys-libs/compiler-rt-sanitizers
+sys-libs/libcxx
+sys-libs/libcxxabi
