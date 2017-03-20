@@ -36,9 +36,9 @@
 *net-misc/netkit-telnetd
 *net-misc/ntp
 *net-misc/openssh
-*net-misc/openvpn
 *net-misc/urlview
 *net-misc/whois
+*net-vpn/openvpn
 *sci-mathematics/calc
 *sys-apps/daemonize
 *sys-apps/dstat
