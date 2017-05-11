@@ -1,4 +1,5 @@
 app-text/djvu
+app-text/hunspell
 app-text/libetonyek
 app-text/libmwaw
 dev-cpp/clucene
