@@ -23,7 +23,8 @@ net-im/telegram-desktop-bin
 net-mail/offlineimap
 net-misc/youtube-dl
 sci-mathematics/calc
-sys-devel/gcc **
+sys-devel/gcc:6.3.0
+sys-devel/gcc:7.1.0
 virtual/jdk
 virtual/jre
 www-client/palemoon
