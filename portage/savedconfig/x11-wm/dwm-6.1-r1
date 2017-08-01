@@ -1,7 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-#define FONT "fixed:size=12"
+#define FONT "Misc Fixed:size=12"
 #define NORMBGCOLOR "#444444"
 #define NORMFGCOLOR "#888888"
 #define SELFGCOLOR "#cccccc"
