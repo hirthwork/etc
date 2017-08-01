@@ -1,3 +1,4 @@
+app-admin/logrotate cron
 app-arch/p7zip rar
 app-editors/vim vim-pager
 app-portage/layman git mercurial subversion
