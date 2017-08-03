@@ -20,6 +20,7 @@ net-im/mcabber-modules
 net-im/mcabber-mucignore
 net-im/skype
 net-im/telegram-desktop-bin
+net-libs/loudmouth
 net-mail/offlineimap
 net-misc/youtube-dl
 sci-mathematics/calc
