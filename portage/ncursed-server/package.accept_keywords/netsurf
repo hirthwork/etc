@@ -1,0 +1,8 @@
+dev-libs/libcss **
+dev-libs/libnsutils **
+dev-libs/libutf8proc **
+dev-libs/libwapcaplet **
+media-libs/libnsgif **
+net-libs/libdom **
+net-libs/libhubbub
+www-client/netsurf **
