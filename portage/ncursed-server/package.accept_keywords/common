@@ -12,13 +12,10 @@ dev-util/mdds
 dev-util/valgrind
 mail-client/mutt
 media-sound/apulse
-media-video/ffmpeg
-media-video/mpv
 net-im/skype
 net-im/telegram-desktop-bin
 net-libs/loudmouth
 net-mail/offlineimap
-net-misc/youtube-dl
 sci-mathematics/calc
 virtual/jdk
 virtual/jre
