@@ -2,7 +2,6 @@ app-admin/logrotate cron
 app-arch/p7zip rar
 app-editors/vim vim-pager
 app-portage/layman git mercurial subversion
-app-text/enchant aspell
 app-text/ghostscript-gpl cups
 app-text/poppler cxx lcms utils
 dev-lang/python sqlite xml
@@ -13,20 +12,13 @@ dev-vcs/git blksha1 curl perl
 dev-vcs/subversion http
 mail-client/mutt berkdb imap nntp pop smime smtp
 net-analyzer/tcpflow pcap
-net-im/mcabber aspell modules unordered-completion
-net-im/mcabber-modules extsayng
 net-irc/irssi perl
-net-misc/openvpn lzo passwordsave
+net-vpn/openvpn lz4
 sys-apps/busybox pam
 sys-apps/dstat wifi
 sys-apps/kmod tools
 sys-apps/net-tools hostname
 sys-apps/openrc netifrc
 sys-devel/binutils cxx
-sys-devel/clang default-compiler-rt default-libcxx static-analyzer
-sys-devel/clang-runtime compiler-rt libcxx
 sys-devel/gcc cxx graphite
 sys-devel/gdb client python server
-sys-devel/llvm clang default-compiler-rt default-libcxx gold lldb static-analyzer xml
-sys-libs/compiler-rt clang
-sys-libs/libcxx libcxxabi
