@@ -1,2 +1,3 @@
 dev-lang/python readline
+x11-base/xorg-server xorg xvfb
 x11-wm/xpra client clipboard lz4 server
