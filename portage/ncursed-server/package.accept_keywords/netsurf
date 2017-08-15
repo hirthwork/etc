@@ -1,5 +1,6 @@
 dev-libs/libcss **
 dev-libs/libnsutils **
+dev-libs/libparserutils
 dev-libs/libutf8proc **
 dev-libs/libwapcaplet **
 media-libs/libnsgif **
