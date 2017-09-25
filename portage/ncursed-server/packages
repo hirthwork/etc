@@ -58,6 +58,5 @@
 *sys-process/iotop
 *sys-process/lsof
 *sys-process/vixie-cron
-*www-client/netsurf
 *www-client/w3m
 *x11-wm/xpra

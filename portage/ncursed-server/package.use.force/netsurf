@@ -1,5 +1,4 @@
 media-libs/libepoxy X
 media-libs/mesa egl
-www-client/netsurf gif gtk jpeg png svg
 x11-libs/cairo glib
 x11-libs/gtk+ X
