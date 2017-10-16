@@ -20,7 +20,7 @@ media-libs/libvpx postproc
 media-libs/mesa classic gbm openssl
 media-libs/phonon gstreamer
 media-plugins/gst-plugins-meta ogg vorbis
-net-analyzer/wireshark gtk pcap
+net-analyzer/wireshark dumpcap gtk pcap
 sys-auth/consolekit pam
 sys-libs/zlib minizip
 www-client/palemoon gtk2 jemalloc optimize shared-js system-libs
