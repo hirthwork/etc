@@ -24,6 +24,7 @@
 *net-misc/x11-ssh-askpass
 *www-client/palemoon
 *www-client/phantomjs
+*www-client/yandex-browser-beta
 *x11-apps/setxkbmap
 *x11-apps/xsetroot
 *x11-base/xorg-server
