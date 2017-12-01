@@ -50,8 +50,8 @@
 *sys-devel/gdb
 *sys-devel/gcc:4.9.4
 *sys-devel/gcc:5.4.0
-*sys-devel/gcc:6.3.0
-*sys-devel/gcc:7.1.0
+*sys-devel/gcc:6.4.0
+*sys-devel/gcc:7.2.0
 *sys-fs/ncdu
 *net-fs/sshfs
 *sys-process/htop
