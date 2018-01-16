@@ -16,6 +16,7 @@
 *app-portage/layman
 *app-portage/portage-utils
 *app-shells/zsh
+*app-text/hunspell
 *dev-perl/Text-Aspell
 *dev-util/debugedit
 *dev-util/strace
