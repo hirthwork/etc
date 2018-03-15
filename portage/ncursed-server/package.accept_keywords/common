@@ -4,8 +4,6 @@ app-text/libetonyek
 app-text/libmwaw
 dev-cpp/clucene
 dev-java/icedtea
-dev-libs/cloog
-dev-libs/isl
 dev-util/cmake
 dev-util/mdds
 dev-util/valgrind
