@@ -1,3 +1,4 @@
 app-crypt/gpgme cxx
+dev-libs/boost nls
 dev-libs/xmlsec nss
 media-libs/harfbuzz graphite
