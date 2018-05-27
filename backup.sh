@@ -16,11 +16,13 @@ trap cleanup EXIT
 
 log=$(mktemp --suffix=.$target.log)
 tar --xattrs --create --gzip --file=$archive $folder
-code=$(curl -m 300 -w '%{http_code}' -o $log -T $archive -H "Authorization: $(cat /root/auth)" https://webdav.yandex.ru/backup/$file/$target)
+code=$(curl -s -m 300 -w '%{http_code}' -o $log -T $archive -H "Authorization: $(cat /root/auth)" https://webdav.yandex.ru/backup/$file/$target)
 if [ "$code" = 201 ]
 then
     rm -f $archive $log
     echo $md5sum > $last
     exit 0
+else
+    exit 1
 fi
 
