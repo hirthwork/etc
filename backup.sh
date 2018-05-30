@@ -6,7 +6,7 @@ md5sum=$(find $folder -type f  -exec realpath '{}' \; -exec getfattr --absolute-
 last=/root/$file.last.md5
 test "$md5sum" = "$(cat $last)" && exit 0 || true
 
-target=$file.$(date +%FT%T).tar.gz
+target=$file.$(date +%FT%T).tar.xz
 
 archive=$(mktemp --suffix=.$target)
 function cleanup() {
@@ -15,7 +15,7 @@ function cleanup() {
 trap cleanup EXIT
 
 log=$(mktemp --suffix=.$target.log)
-tar --xattrs --create --gzip --file=$archive $folder
+XZ_OPT=-9 tar --xattrs --create --xz --file=$archive $folder
 code=$(curl -s -m 300 -w '%{http_code}' -o $log -T $archive -H "Authorization: $(cat /root/auth)" https://webdav.yandex.ru/backup/$file/$target)
 if [ "$code" = 201 ]
 then
