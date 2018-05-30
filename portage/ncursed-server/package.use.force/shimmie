@@ -1,1 +1,1 @@
-media-video/ffmpeg gpl network openssl vpx zlib
+media-video/ffmpeg encode gpl network openssl vpx webp x264 xvid zlib
