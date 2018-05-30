@@ -1,3 +1,2 @@
-media-video/ffmpeg gpl network openssl vpx zlib
 media-video/mpv X cli iconv libass libcaca lua
 net-misc/youtube-dl offensive
