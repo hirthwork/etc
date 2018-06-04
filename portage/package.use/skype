@@ -1,4 +1,0 @@
-app-crypt/pinentry gnome-keyring
-app-crypt/gcr gtk
-dev-qt/qtgui:4 accessibility
-net-im/skype apulse
