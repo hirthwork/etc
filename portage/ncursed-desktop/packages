@@ -18,11 +18,9 @@
 *media-video/mpv
 *media-video/recordmydesktop
 *net-analyzer/wireshark
-*net-im/skype
 *net-im/telegram-desktop-bin
 *net-misc/youtube-dl
 *net-misc/x11-ssh-askpass
-*www-client/palemoon
 *www-client/phantomjs
 *www-client/yandex-browser-beta
 *x11-apps/setxkbmap
@@ -31,7 +29,6 @@
 *x11-libs/xosd
 *x11-misc/autocutsel
 *x11-misc/dmenu
-*x11-misc/gmrun
 *x11-misc/slock
 *x11-misc/wmname
 *x11-misc/xcompmgr

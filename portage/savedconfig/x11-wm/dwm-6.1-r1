@@ -15,7 +15,7 @@ static const char normfgcolor[]     = NORMFGCOLOR;
 static const char selbordercolor[]  = NORMBGCOLOR;
 static const char selbgcolor[]      = NORMBGCOLOR;
 static const char selfgcolor[]      = SELFGCOLOR;
-static const unsigned int borderpx  = 0;        /* border pixel of windows */
+static const unsigned int borderpx  = 0;	/* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const unsigned int systraypinning = 0;   /* 0: sloppy systray follows selected monitor, >0: pin systray to monitor X */
 static const unsigned int systrayspacing = 0;   /* systray spacing */
@@ -70,7 +70,6 @@ static const Layout layouts[] = {
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", normbgcolor, "-nf", normfgcolor, "-sb", selbgcolor, "-sf", selfgcolor, NULL };
-static const char *gmruncmd[] = { "gmrun", "-g", "+0+0", NULL };
 static const char *termcmd[]  = { "uxterm", "-fn", "-misc-fixed-medium-r-normal--15-140-75-75-c-90-iso10646-1", "-fb", "-misc-fixed-bold-r-normal--15-140-75-75-c-90-iso10646-1", "+sb", "-bg", normbgcolor, "-fg", selfgcolor, "-cr", "white", "-bc", "-uc", "-b", "0", NULL };
 static const char *scrotcmd[]  = { "scrot", "/tmp/%Y%m%d-%H%M%S.png", NULL };
 static const char *lockcmd[]  = { "sh", "-c", "$HOME/lock", NULL };
@@ -81,10 +80,10 @@ static void prevtag(const Arg *arg);
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
-        { MODKEY,                       XK_r,      spawn,          {.v = gmruncmd } },
+	{ MODKEY,                       XK_r,      spawn,          {.v = dmenucmd } },
 	{ MODKEY,                       XK_Return, spawn,          {.v = termcmd } },
-        { MODKEY,                       XK_s,      spawn,          {.v = scrotcmd } },
-        { MODKEY|ShiftMask,             XK_l,      spawn,          {.v = lockcmd } },
+	{ MODKEY,                       XK_s,      spawn,          {.v = scrotcmd } },
+	{ MODKEY|ShiftMask,             XK_l,      spawn,          {.v = lockcmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
@@ -100,9 +99,9 @@ static Key keys[] = {
 	{ MODKEY,                       XK_period, focusmon,       {.i = +1 } },
 	{ MODKEY|ShiftMask,             XK_comma,  tagmon,         {.i = -1 } },
 	{ MODKEY|ShiftMask,             XK_period, tagmon,         {.i = +1 } },
-        { MODKEY|ShiftMask,             XK_n,      nametag,        {0} },
-        { MODKEY,                       XK_n,      nexttag,        {0} },
-        { MODKEY,                       XK_p,      prevtag,        {0} },
+	{ MODKEY|ShiftMask,             XK_n,      nametag,        {0} },
+	{ MODKEY,                       XK_n,      nexttag,        {0} },
+	{ MODKEY,                       XK_p,      prevtag,        {0} },
 	TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
 	TAGKEYS(                        XK_3,                      2)
