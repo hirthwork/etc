@@ -1,0 +1,4 @@
+x11-libs/libxkbcommon X
+dev-libs/libpcre2 pcre16
+dev-qt/qtsql sqlite
+
