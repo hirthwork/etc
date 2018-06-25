@@ -2,7 +2,6 @@ app-text/djvu
 app-text/hunspell
 app-text/libetonyek
 app-text/libmwaw
-dev-cpp/clucene
 dev-java/icedtea
 dev-util/cmake
 dev-util/mdds
@@ -11,6 +10,4 @@ mail-client/mutt
 net-libs/loudmouth
 net-mail/offlineimap
 sci-mathematics/calc
-virtual/jdk
-virtual/jre
 www-client/w3m
