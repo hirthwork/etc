@@ -2,7 +2,7 @@
 set -e
 folder=$1
 file=$2
-md5sum=$(find $folder -type f  -exec realpath '{}' \; -exec getfattr --absolute-names -d '{}' \; -exec cat '{}' \; | md5sum | cut -d' ' -f1)
+md5sum=$(find $folder -type f  -not -wholename /etc/motd -exec realpath '{}' \; -exec getfattr --absolute-names -d '{}' \; -exec cat '{}' \; | md5sum | cut -d' ' -f1)
 last=/root/$file.last.md5
 test "$md5sum" = "$(cat $last)" && exit 0 || true
 
