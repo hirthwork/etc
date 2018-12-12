@@ -11,4 +11,4 @@ dev-perl/Net-Bonjour
 dev-perl/Wx-GLCanvas
 dev-perl/XML-SAX-ExpatXS
 dev-perl/constant-defer
-media-gfx/slic3r
+media-gfx/slic3r **
