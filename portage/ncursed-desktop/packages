@@ -38,3 +38,7 @@
 *x11-misc/xsel
 *x11-terms/xterm
 *x11-wm/dwm
+
+# required by openscad
+*dev-libs/libzip
+*dev-qt/qtmultimedia
