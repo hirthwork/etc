@@ -1,4 +1,4 @@
-USE="${USE} djvu fontconfig ssse3 svg webp xpm"
+USE="${USE} djvu fontconfig heif ssse3 svg webp xpm"
 INPUT_DEVICES="${INPUT_DEVICES} evdev keyboard mouse"
 FEATURES="${FEATURES}"
 ABI_X86="32 64"
