@@ -1,7 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-#define FONT "Misc Fixed:size=12"
+#define FONT "Misc Fixed:size=12:lang=ru"
 #define NORMBGCOLOR "#444444"
 #define NORMFGCOLOR "#888888"
 #define SELFGCOLOR "#cccccc"
@@ -19,10 +19,15 @@ static const unsigned int borderpx  = 0;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const unsigned int systraypinning = 0;   /* 0: sloppy systray follows selected monitor, >0: pin systray to monitor X */
 static const unsigned int systrayspacing = 0;   /* systray spacing */
-static const int systraypinningfailfirst = 1;   /* 1: if pinning fails, display systray on the first monitor, 0: display systray on the last monitor*/
-static const int showsystray        = 1;        /* 0 means no systray */
+static const int systraypinningfailfirst = 1;   /* 1: if pinning fails, display systray on the first monitor, False: display systray on the last monitor*/
+static const int showsystray        = 1;     /* 0 means no systray */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
+static const char *colors[][3]      = {
+	/*               fg         bg         border   */
+	[SchemeNorm] = { normfgcolor, normbgcolor, normbordercolor },
+	[SchemeSel]  = { selfgcolor, selbgcolor, selbordercolor },
+};
 
 /* tagging */
 #define MAX_TAGLEN 256
@@ -37,7 +42,6 @@ static const Rule rules[] = {
         { "mpv",      NULL,       NULL,       0,            True,        -1 },
         { "feh",      NULL,       NULL,       0,            True,        -1 },
         { "UXTerm",   NULL,       NULL,       0,            False,       -1 },
-        { "Pale moon",NULL,       NULL,       1 << 1,       False,       -1 },
         { "Yandex-browser-beta",NULL,NULL,    1 << 1,       False,       -1 },
         { "Dia",      NULL,       NULL,       1 << 6,       True,        -1 },
         { "Gimp",     NULL,       NULL,       1 << 6,       False,       -1 },
@@ -115,7 +119,7 @@ static Key keys[] = {
 };
 
 /* button definitions */
-/* click can be ClkLtSymbol, ClkStatusText, ClkWinTitle, ClkClientWin, or ClkRootWin */
+/* click can be ClkTagBar, ClkLtSymbol, ClkStatusText, ClkWinTitle, ClkClientWin, or ClkRootWin */
 static Button buttons[] = {
 	/* click                event mask      button          function        argument */
 	{ ClkLtSymbol,          0,              Button1,        setlayout,      {0} },
