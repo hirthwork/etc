@@ -18,6 +18,6 @@ sys-apps/dstat wifi
 sys-apps/kmod tools
 sys-apps/net-tools hostname
 sys-apps/openrc netifrc
-sys-devel/binutils cxx
+sys-devel/binutils cxx gold plugins
 sys-devel/gcc cxx graphite mpx ssp vtv
 sys-devel/gdb client python server
