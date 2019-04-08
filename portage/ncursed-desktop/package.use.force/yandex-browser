@@ -1,2 +1,3 @@
 media-libs/harfbuzz icu
+net-libs/nodejs icu inspector
 www-client/yandex-browser-beta ffmpeg-codecs
