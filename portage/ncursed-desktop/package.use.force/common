@@ -20,7 +20,7 @@ media-libs/libvpx postproc
 media-libs/mesa classic gbm openssl
 media-libs/phonon gstreamer
 media-plugins/gst-plugins-meta ogg vorbis
-net-analyzer/wireshark dumpcap gtk pcap
+net-analyzer/wireshark dumpcap pcap qt5
 sys-auth/consolekit pam
 sys-libs/zlib minizip
 x11-base/xorg-server suid xcsecurity
