@@ -42,3 +42,6 @@
 # required by openscad
 *dev-libs/libzip
 *dev-qt/qtmultimedia
+
+# required by Q
+app-crypt/libsecret
