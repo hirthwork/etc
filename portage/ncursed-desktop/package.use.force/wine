@@ -1,0 +1,3 @@
+app-emulation/wine-vanilla X capi gecko mono netapi nls odbc openal osmesa perl prelink run-exes truetype v4l xcomposite xinerama
+dev-libs/elfutils static-libs
+media-libs/mesa osmesa
