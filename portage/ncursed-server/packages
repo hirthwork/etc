@@ -53,8 +53,8 @@
 *sys-devel/gcc
 *sys-fs/ncdu
 *net-fs/sshfs
+*sys-process/cronie
 *sys-process/htop
 *sys-process/iotop
 *sys-process/lsof
-*sys-process/vixie-cron
 *www-client/w3m

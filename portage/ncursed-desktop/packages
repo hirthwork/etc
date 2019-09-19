@@ -26,6 +26,7 @@
 *net-misc/x11-ssh-askpass
 *sys-fs/dosfstools
 *virtual/wine
+*www-client/firefox
 *www-client/yandex-browser-beta
 *www-plugins/yandex-browser-ffmpeg-codecs
 *x11-apps/setxkbmap
@@ -34,7 +35,6 @@
 *x11-libs/xosd
 *x11-misc/autocutsel
 *x11-misc/dmenu
-*x11-misc/gmrun
 *x11-misc/slock
 *x11-misc/wmname
 *x11-misc/xsel
