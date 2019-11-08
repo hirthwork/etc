@@ -1,4 +1,5 @@
 app-crypt/gpgme cxx
+app-office/libreoffice java
 dev-libs/boost nls
 dev-libs/xmlsec nss
 media-libs/harfbuzz graphite
