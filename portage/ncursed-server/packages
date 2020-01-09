@@ -29,10 +29,6 @@
 *net-analyzer/traceroute
 *net-dns/openresolv
 *net-firewall/iptables
-*net-im/mcabber
-*net-im/mcabber-commands
-*net-im/mcabber-modules
-*net-im/mcabber-mucignore
 *net-irc/irssi
 *net-mail/offlineimap
 *net-mail/qprint
