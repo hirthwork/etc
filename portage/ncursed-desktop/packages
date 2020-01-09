@@ -42,6 +42,7 @@
 *x11-misc/xsel
 *x11-terms/xterm
 *x11-wm/dwm
+*x11-wm/xpra
 
 # required by openscad
 *dev-libs/libzip
