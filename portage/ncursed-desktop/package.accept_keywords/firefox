@@ -1,7 +1,0 @@
-dev-lang/rust
-dev-libs/nspr
-dev-libs/nss
-dev-util/cbindgen
-virtual/cargo
-virtual/rust
-www-client/firefox
