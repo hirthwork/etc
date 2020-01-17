@@ -3,7 +3,6 @@ app-text/hunspell
 app-text/libetonyek
 app-text/libmwaw
 dev-java/icedtea
-dev-util/cmake
 dev-util/mdds
 dev-util/valgrind
 mail-client/mutt
