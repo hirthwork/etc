@@ -1,0 +1,4 @@
+dev-qt/qtwidgets X
+media-video/ffmpeg opus
+net-im/telegram-desktop X
+x11-libs/libva drm

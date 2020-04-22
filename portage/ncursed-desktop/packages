@@ -23,12 +23,14 @@
 *media-video/recordmydesktop
 *net-analyzer/wireshark
 *net-fs/samba
-*net-im/telegram-desktop-bin
+*net-im/telegram-desktop
+*net-im/zoom-bin
 *net-misc/youtube-dl
 *net-misc/x11-ssh-askpass
 *sys-fs/dosfstools
 *virtual/wine
 *www-client/firefox
+*www-client/torbrowser-launcher
 *www-client/yandex-browser-beta
 *www-plugins/yandex-browser-ffmpeg-codecs
 *x11-apps/setxkbmap
