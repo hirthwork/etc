@@ -1,4 +1,4 @@
-USE="${USE} djvu fontconfig gmp-autoupdate heif nls ssse3 svg webp xpm"
+USE="${USE} djvu fontconfig gmp-autoupdate heif nls spell ssse3 svg v4l webp xpm"
 INPUT_DEVICES="${INPUT_DEVICES} evdev keyboard mouse"
 FEATURES="${FEATURES}"
 ABI_X86="32 64"
