@@ -49,6 +49,7 @@
 *sys-devel/gcc
 *sys-fs/ncdu
 *net-fs/sshfs
+*sys-kernel/installkernel-gentoo
 *sys-process/cronie
 *sys-process/htop
 *sys-process/iotop
