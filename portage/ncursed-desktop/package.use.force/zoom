@@ -1,3 +1,5 @@
 media-libs/libvpx svc
 dev-qt/qtdeclarative widgets
+dev-qt/qtdiag widgets
+dev-qt/qtquickcontrols widgets
 dev-qt/qtwebengine widgets
