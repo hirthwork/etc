@@ -25,5 +25,5 @@ sys-apps/openrc netifrc
 sys-apps/portage rsync-verify
 sys-apps/shadow su
 sys-devel/binutils cxx gold plugins
-sys-devel/gcc cxx graphite mpx ssp vtv
+sys-devel/gcc cxx fortran graphite mpx ssp vtv
 sys-devel/gdb client python server
