@@ -2,7 +2,6 @@ app-text/djvu
 app-text/libetonyek
 app-text/libmwaw
 dev-java/icedtea
-dev-util/mdds
 dev-util/valgrind
 mail-client/mutt
 net-libs/loudmouth
