@@ -7,12 +7,9 @@ dev-lang/python sqlite xml
 dev-libs/gmp cxx
 dev-libs/libxml2 python
 dev-libs/nettle gmp
-dev-util/itstool python_single_target_python2_7
-dev-util/systemtap python_single_target_python2_7
 dev-vcs/git blksha1 curl perl
 dev-vcs/subversion http
 mail-client/mutt berkdb imap nntp pop smime smtp
-media-gfx/inkscape python_single_target_python2_7
 net-analyzer/tcpflow pcap python_single_target_python2_7
 net-irc/irssi perl
 net-mail/offlineimap python_single_target_python2_7
