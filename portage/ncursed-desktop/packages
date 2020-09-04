@@ -33,7 +33,6 @@
 *www-client/firefox
 *www-client/torbrowser-launcher
 *www-client/yandex-browser-beta
-*www-plugins/yandex-browser-ffmpeg-codecs
 *x11-apps/setxkbmap
 *x11-apps/xsetroot
 *x11-base/xorg-server
