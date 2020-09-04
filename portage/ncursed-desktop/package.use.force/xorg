@@ -1,2 +1,4 @@
 media-libs/libepoxy egl
-x11-base/xorg-server xorg
+media-libs/libglvnd X
+media-libs/mesa classic gbm openssl
+x11-base/xorg-server suid xcsecurity xorg
