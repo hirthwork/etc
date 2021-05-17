@@ -4,6 +4,7 @@ app-text/libmwaw
 dev-java/icedtea
 dev-util/valgrind
 mail-client/mutt
+net-analyzer/tcpflow
 net-libs/loudmouth
 net-mail/offlineimap
 sci-mathematics/calc
