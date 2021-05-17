@@ -13,7 +13,7 @@ mail-client/mutt berkdb imap nntp pop smime smtp
 net-analyzer/tcpflow pcap python_single_target_python2_7
 net-irc/irssi perl
 net-mail/offlineimap python_single_target_python2_7
-net-vpn/openvpn lz4
+net-vpn/openvpn lz4 openssl
 sys-apps/busybox pam
 sys-apps/dstat wifi
 sys-apps/kmod tools
