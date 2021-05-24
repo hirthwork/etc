@@ -38,6 +38,7 @@
 *x11-base/xorg-server
 *x11-libs/xosd
 *x11-misc/autocutsel
+*x11-misc/birdtray
 *x11-misc/dmenu
 *x11-misc/slock
 *x11-misc/wmname
