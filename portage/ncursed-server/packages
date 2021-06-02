@@ -30,7 +30,6 @@
 *net-dns/openresolv
 *net-firewall/iptables
 *net-irc/irssi
-*net-mail/offlineimap
 *net-mail/qprint
 *net-misc/dhcpcd
 *net-misc/netkit-telnetd

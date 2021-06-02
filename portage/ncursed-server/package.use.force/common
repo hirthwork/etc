@@ -10,9 +10,8 @@ dev-libs/nettle gmp
 dev-vcs/git blksha1 curl perl
 dev-vcs/subversion http
 mail-client/mutt berkdb imap nntp pop smime smtp
-net-analyzer/tcpflow pcap python_single_target_python2_7
+net-analyzer/tcpflow pcap
 net-irc/irssi perl
-net-mail/offlineimap python_single_target_python2_7
 net-vpn/openvpn lz4 openssl
 sys-apps/busybox pam
 sys-apps/dstat wifi
