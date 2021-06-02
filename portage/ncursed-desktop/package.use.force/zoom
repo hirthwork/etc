@@ -5,3 +5,4 @@ dev-qt/qtpositioning qml
 dev-qt/qtquickcontrols widgets
 dev-qt/qtwebchannel qml
 dev-qt/qtwebengine widgets
+net-im/zoom bundled-libjpeg-turbo bundled-qt
