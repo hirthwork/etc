@@ -1,4 +1,4 @@
 media-libs/libepoxy egl
 media-libs/libglvnd X
-media-libs/mesa classic gallium gbm openssl
+media-libs/mesa classic egl gallium gbm openssl
 x11-base/xorg-server suid xcsecurity xorg

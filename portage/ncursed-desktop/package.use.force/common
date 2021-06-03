@@ -20,7 +20,7 @@ media-plugins/gst-plugins-meta ogg vorbis
 net-analyzer/wireshark dumpcap pcap qt5
 sys-auth/consolekit pam
 sys-libs/zlib minizip static-libs
-x11-libs/cairo X
+x11-libs/cairo X glib
 x11-libs/gdk-pixbuf X
 x11-libs/gtk+ X
 x11-libs/libxcb xkb

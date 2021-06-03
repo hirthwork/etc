@@ -1,4 +1,4 @@
-sys-devel/clang default-compiler-rt default-libcxx python_single_target_python2_7 static-analyzer
+sys-devel/clang default-compiler-rt default-libcxx static-analyzer
 sys-devel/clang-runtime compiler-rt libcxx
 sys-devel/llvm clang default-compiler-rt default-libcxx gold lldb static-analyzer xml
 sys-libs/compiler-rt clang

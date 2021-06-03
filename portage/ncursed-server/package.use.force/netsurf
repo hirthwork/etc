@@ -1,4 +1,0 @@
-media-libs/libepoxy X
-media-libs/mesa egl
-x11-libs/cairo glib
-x11-libs/gtk+ X
