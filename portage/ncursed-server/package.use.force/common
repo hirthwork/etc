@@ -5,6 +5,7 @@ app-portage/layman git mercurial subversion
 app-text/poppler cxx lcms utils
 dev-lang/python sqlite xml
 dev-libs/gmp cxx
+dev-libs/libtomcrypt gmp
 dev-libs/libxml2 python
 dev-libs/nettle gmp
 dev-vcs/git blksha1 curl perl
