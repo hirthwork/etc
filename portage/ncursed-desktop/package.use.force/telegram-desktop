@@ -1,5 +1,6 @@
 dev-qt/qtgui wayland egl libinput
 dev-qt/qtwidgets X
+media-libs/tg_owt X
 media-sound/apulse sdk
 media-video/ffmpeg opus
 net-im/telegram-desktop X
