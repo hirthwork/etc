@@ -10,6 +10,7 @@ dev-libs/libxml2 python
 dev-libs/nettle gmp
 dev-vcs/git blksha1 curl perl
 dev-vcs/subversion http
+dev-util/pkgconf pkg-config
 mail-client/mutt berkdb imap nntp pop smime smtp
 net-analyzer/tcpflow pcap
 net-irc/irssi perl
