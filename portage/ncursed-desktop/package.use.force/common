@@ -9,6 +9,7 @@ dev-libs/libxml2 icu
 media-fonts/corefonts X
 media-fonts/font-misc-misc X
 media-gfx/feh curl
+media-libs/freetype harfbuzz
 media-libs/gd zlib truetype
 media-libs/harfbuzz glib truetype
 media-libs/imlib2 X
