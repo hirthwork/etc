@@ -27,6 +27,7 @@
 *net-analyzer/tcpdump
 *net-analyzer/tcpflow
 *net-analyzer/traceroute
+*net-dns/bind-tools
 *net-dns/openresolv
 *net-firewall/iptables
 *net-irc/irssi
