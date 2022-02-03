@@ -15,6 +15,7 @@ mail-client/mutt berkdb imap nntp pop smime smtp
 net-analyzer/tcpflow pcap
 net-dns/bind-tools idn
 net-irc/irssi perl
+net-misc/curl brotli ftp gnutls idn imap openssl pop3 progress-meter smtp ssh
 net-vpn/openvpn lz4 openssl
 sys-apps/busybox pam
 sys-apps/dstat wifi
