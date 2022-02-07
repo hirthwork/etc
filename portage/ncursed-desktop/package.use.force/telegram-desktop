@@ -1,3 +1,4 @@
+app-arch/libarchive bzip2
 dev-qt/qtgui wayland egl libinput
 dev-qt/qtwidgets X
 media-libs/tg_owt X

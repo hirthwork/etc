@@ -19,6 +19,7 @@ net-misc/curl brotli ftp gnutls idn imap openssl pop3 progress-meter smtp ssh
 net-vpn/openvpn lz4 openssl
 sys-apps/busybox pam
 sys-apps/dstat wifi
+sys-apps/elfix ptpax
 sys-apps/kmod tools
 sys-apps/net-tools hostname
 sys-apps/openrc netifrc
