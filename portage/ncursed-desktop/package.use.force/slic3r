@@ -1,4 +1,3 @@
-dev-perl/Alien-wxWidgets opengl
 dev-lang/perl ithreads
 media-gfx/slic3r gui
 x11-libs/wxGTK opengl
