@@ -1,0 +1,4 @@
+dev-lang/perl ithreads
+media-gfx/openvdb abi8-compat
+media-libs/qhull static-libs
+x11-libs/wxGTK opengl

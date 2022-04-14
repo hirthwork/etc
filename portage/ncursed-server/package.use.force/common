@@ -3,6 +3,7 @@ app-arch/p7zip rar
 app-editors/vim vim-pager
 app-portage/layman git mercurial subversion
 app-text/poppler cxx lcms utils
+dev-python/pypax ptpax
 dev-lang/python sqlite xml
 dev-libs/gmp cxx
 dev-libs/libtomcrypt gmp
