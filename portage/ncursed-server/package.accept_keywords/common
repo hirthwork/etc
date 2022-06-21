@@ -1,7 +1,6 @@
 app-text/djvu
 app-text/libetonyek
 app-text/libmwaw
-dev-java/icedtea
 dev-util/valgrind
 net-analyzer/tcpflow
 sci-mathematics/calc
