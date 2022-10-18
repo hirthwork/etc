@@ -1,5 +1,5 @@
 app-crypt/gpgme cxx
-app-office/libreoffice java
+dev-libs/libxml2 ftp
 dev-libs/xmlsec nss
 media-libs/harfbuzz graphite
 sys-apps/dbus X
