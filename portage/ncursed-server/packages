@@ -37,6 +37,7 @@
 *net-misc/openssh
 *net-misc/whois
 *net-vpn/openvpn
+*net-vpn/wireguard-tools
 *sci-mathematics/calc
 *sys-apps/daemonize
 *sys-apps/dstat
