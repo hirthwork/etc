@@ -1,6 +1,6 @@
-sys-devel/clang default-compiler-rt default-libcxx static-analyzer
+sys-devel/clang static-analyzer
 sys-devel/clang-runtime compiler-rt libcxx
-sys-devel/llvm clang default-compiler-rt default-libcxx gold lldb static-analyzer xml
+sys-devel/llvm clang gold lldb static-analyzer xml
 sys-libs/compiler-rt clang
 sys-libs/compiler-rt-sanitizers asan dfsan lsan msan hwasan tsan ubsan safestack cfi scudo shadowcallstack gwp-asan libfuzzer profile xray
 sys-libs/libcxx libcxxabi
