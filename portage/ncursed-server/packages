@@ -2,7 +2,7 @@
 *app-admin/syslog-ng
 *app-arch/p7zip
 *app-arch/unzip
-*app-editors/emacs:24
+*app-editors/emacs
 *app-editors/hexedit
 *app-editors/vim
 *app-emacs/emacs-jabber
