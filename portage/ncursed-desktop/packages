@@ -24,8 +24,8 @@
 *net-im/skypeforlinux
 *net-im/telegram-desktop
 *net-im/zoom
-*net-misc/youtube-dl
 *net-misc/x11-ssh-askpass
+*net-misc/yt-dlp
 *sys-fs/dosfstools
 *virtual/wine
 *www-client/firefox
