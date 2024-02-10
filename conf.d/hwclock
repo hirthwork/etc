@@ -7,7 +7,7 @@ clock="UTC"
 # If you want to set the Hardware Clock to the current System Time 
 # (software clock) during shutdown, then say "YES" here.
 # You normally don't need to do this if you run a ntp daemon.
-clock_systohc="NO"
+clock_systohc="YES"
 
 # If you want to set the system time to the current hardware clock
 # during bootup, then say "YES" here. You do not need this if you are

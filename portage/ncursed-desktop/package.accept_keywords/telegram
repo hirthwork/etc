@@ -1,4 +1,9 @@
+dev-cpp/cppgir
+dev-cpp/expected-lite
+dev-cpp/glibmm
+dev-libs/glib
 dev-libs/libdispatch
+dev-util/gdbus-codegen
 media-libs/libtgvoip
 media-libs/tg_owt
 net-im/telegram-desktop

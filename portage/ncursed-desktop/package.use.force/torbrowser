@@ -1,3 +1,5 @@
 app-crypt/gpgme python
 dev-qt/qtgui X
 dev-python/PyQt5 gui widgets
+media-libs/mesa wayland
+x11-libs/gtk+ wayland

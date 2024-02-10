@@ -1,4 +1,6 @@
+media-libs/libva X
 media-libs/mesa X
 media-libs/openh264 plugin
 media-video/ffmpeg libdrm
-www-client/firefox geckodriver lto screenshot
+media-video/libva-utils X putsurface
+www-client/firefox X
