@@ -25,6 +25,6 @@ sys-apps/net-tools hostname
 sys-apps/openrc netifrc
 sys-apps/portage rsync-verify
 sys-apps/shadow su
-sys-apps/systemd-utils tmpfiles
+sys-apps/systemd-utils tmpfiles udev
 sys-devel/binutils cxx gold plugins
 sys-devel/gcc cxx fortran graphite mpx ssp vtv
