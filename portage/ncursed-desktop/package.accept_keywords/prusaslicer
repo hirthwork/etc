@@ -1,3 +1,5 @@
+dev-libs/heatshrink
+media-gfx/libbgcode
 media-gfx/prusaslicer
 media-libs/nanosvg
 x11-libs/wxGTK

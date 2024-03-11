@@ -21,6 +21,8 @@ media-libs/libpng apng
 media-libs/phonon gstreamer
 media-plugins/gst-plugins-meta ogg vorbis
 net-analyzer/wireshark dumpcap gui pcap tshark
+net-print/libppd poppler
+net-libs/webkit-gtk X
 sys-auth/consolekit pam
 sys-libs/zlib minizip static-libs
 x11-libs/cairo X glib

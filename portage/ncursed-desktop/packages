@@ -31,6 +31,7 @@
 *sys-fs/dosfstools
 *virtual/wine
 *www-client/firefox
+*www-client/qutebrowser
 *www-client/torbrowser-launcher
 *www-client/yandex-browser-stable
 *x11-apps/setxkbmap
@@ -43,7 +44,6 @@
 *x11-misc/dmenu
 *x11-misc/slim
 *x11-misc/slock
-*x11-misc/wmname
 *x11-misc/xsel
 *x11-terms/xterm
 *x11-wm/dwm

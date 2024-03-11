@@ -41,6 +41,7 @@
 *sci-mathematics/calc
 *sys-apps/daemonize
 *sys-apps/dstat
+*sys-apps/iproute2
 *sys-apps/kmod
 *sys-apps/mlocate
 *sys-boot/grub

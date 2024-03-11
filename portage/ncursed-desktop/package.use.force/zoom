@@ -1,5 +1,4 @@
 dev-libs/libverto libev
-dev-libs/quazip qt5
 dev-qt/qtdeclarative widgets
 dev-qt/qtdiag widgets
 dev-qt/qtpositioning qml

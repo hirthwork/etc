@@ -1,1 +1,2 @@
 net-misc/curl threads
+sys-apps/iproute2 minimal
