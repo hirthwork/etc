@@ -1,10 +1,11 @@
 app-arch/libarchive bzip2
 dev-qt/qtbase X
 dev-qt/qtgui egl libinput
+dev-qt/qtwayland qml compositor
 dev-qt/qtwidgets X
 media-libs/libavif aom
 media-libs/tg_owt X
 media-sound/apulse sdk
 media-video/ffmpeg opus
-net-im/telegram-desktop X qt6 qt6-imageformats
+net-im/telegram-desktop X fonts libdispatch qt6 qt6-imageformats webkit
 x11-libs/libva drm

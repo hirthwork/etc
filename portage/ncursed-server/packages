@@ -1,4 +1,6 @@
 *app-admin/logrotate
+*app-admin/sysstat
+*app-misc/resolve-march-native
 *app-admin/syslog-ng
 *app-arch/p7zip
 *app-arch/unzip
@@ -13,6 +15,7 @@
 *app-portage/cpuid2cpuflags
 *app-portage/genlop
 *app-portage/gentoolkit
+*app-portage/mirrorselect
 *app-portage/portage-utils
 *app-shells/zsh
 *app-text/hunspell
@@ -47,6 +50,7 @@
 *sys-boot/grub
 *sys-devel/clang
 *sys-devel/gcc
+*sys-fs/fuse:0
 *sys-fs/ncdu
 *net-fs/sshfs
 *sys-kernel/installkernel

@@ -1,5 +1,4 @@
-dev-lang/perl ithreads
 dev-libs/libpcre2 pcre32
 media-gfx/openvdb abi8-compat
 media-libs/qhull static-libs
-x11-libs/wxGTK opengl
+x11-libs/wxGTK opengl webkit

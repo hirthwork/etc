@@ -11,7 +11,7 @@ dev-libs/nettle gmp
 dev-python/pypax ptpax
 dev-util/pkgconf pkg-config
 dev-vcs/git blksha1 curl perl
-dev-vcs/subversion http
+dev-vcs/subversion http perl
 net-analyzer/tcpflow pcap
 net-dns/bind-tools idn
 net-irc/irssi perl
@@ -22,7 +22,7 @@ sys-apps/dstat wifi
 sys-apps/elfix ptpax
 sys-apps/kmod tools
 sys-apps/net-tools hostname
-sys-apps/openrc netifrc
+sys-apps/openrc netifrc sysv-utils
 sys-apps/portage rsync-verify
 sys-apps/shadow su
 sys-apps/systemd-utils tmpfiles udev

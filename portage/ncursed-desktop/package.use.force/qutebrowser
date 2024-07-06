@@ -1,4 +1,6 @@
 dev-python/PyQt6 gui network printsupport qml sql webchannel widgets
-dev-qt/qtbase X concurrent eglfs sql sqlite
+dev-python/PyQt6-WebEngine widgets
+dev-qt/qtbase X concurrent eglfs network sql sqlite
+dev-qt/qtdeclarative network
 dev-qt/qtmultimedia X eglfs ffmpeg opengl
 www-client/qutebrowser qt6

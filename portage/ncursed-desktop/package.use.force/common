@@ -14,7 +14,7 @@ media-gfx/feh curl
 media-libs/freetype utils
 media-libs/gd zlib truetype
 media-libs/harfbuzz glib truetype
-media-libs/imlib2 X
+media-libs/imlib2 X filters text
 media-libs/libass harfbuzz
 media-libs/libepoxy X
 media-libs/libpng apng

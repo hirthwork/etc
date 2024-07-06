@@ -1,2 +1,3 @@
 media-libs/mesa gles2
 sci-mathematics/cgal gmp mpfi ntl
+x11-libs/qscintilla qt5

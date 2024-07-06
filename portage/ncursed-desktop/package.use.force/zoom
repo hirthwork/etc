@@ -1,4 +1,5 @@
 dev-libs/libverto libev
+dev-libs/quazip qt5
 dev-qt/qtdeclarative widgets
 dev-qt/qtdiag widgets
 dev-qt/qtpositioning qml
@@ -6,4 +7,4 @@ dev-qt/qtquickcontrols widgets
 dev-qt/qtwebchannel qml
 dev-qt/qtwebengine widgets
 media-libs/libvpx svc
-net-im/zoom bundled-libjpeg-turbo bundled-qt
+net-im/zoom bundled-qt
