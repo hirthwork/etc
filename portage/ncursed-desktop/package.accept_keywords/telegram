@@ -1,8 +1,11 @@
+dev-cpp/abseil-cpp
+dev-cpp/ada
 dev-cpp/cppgir
 dev-cpp/expected-lite
 dev-cpp/glibmm
 dev-libs/glib
 dev-libs/libdispatch
+dev-libs/protobuf
 dev-util/gdbus-codegen
 media-libs/libtgvoip
 media-libs/tg_owt

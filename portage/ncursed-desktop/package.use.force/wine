@@ -1,3 +1,4 @@
 app-emulation/wine-vanilla X capi gecko mono netapi odbc osmesa perl prelink run-exes truetype v4l xcomposite
 dev-libs/elfutils static-libs
+dev-libs/libclc spirv
 media-libs/mesa llvm osmesa

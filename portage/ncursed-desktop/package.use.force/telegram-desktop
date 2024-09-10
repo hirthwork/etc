@@ -1,4 +1,5 @@
 app-arch/libarchive bzip2
+dev-libs/protobuf libprotoc protobuf protoc
 dev-qt/qtbase X
 dev-qt/qtgui egl libinput
 dev-qt/qtwayland qml compositor
